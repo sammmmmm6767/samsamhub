@@ -1165,21 +1165,21 @@ end
 -- (hidden / removed originals, added parts, property changes), plus its ItemLibrary and
 -- CosmeticLibrary entries. JSON with ' instead of " (decode: gsub("'", '"')).
 MD3.samsamhubSkinData = {}
-MD3.samsamhubSkinData["Sova"] = [=[{'src':'Frostbite Bow','il':{'Animations':{'Sprint':'bow_sprint','Charge':'bow_charge','ChargeRelease':'bow_frostbitebow_charge_release','Reload':'bow_reload','Shoot1':'bow_frostbitebow_shoot1','Equip':'bow_frostbitebow_equip','Inspect':'bow_inspect','ChargeLoop':'bow_charge_loop','Idle':'bow_idle'},'Image':'rbxassetid://95113702895543','ImageHighResolution':'rbxassetid://95113702895543'},'set':[{'a':{'__LYBowHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'path':'Body#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'__LYBowHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'path':'Body#1/MeshPart#2','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'__LYBowHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'path':'Arrow#1/Stick#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'__LYBowHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'path':'Arrow#1/Tip#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}}],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Frostbite Bow','Unlocked':true,'DisplayName':'Sova','WorldViewModelName':'Frostbite Bow','Image':'rbxassetid://95113702895543','ViewModelName':'Sova','ImageHighResolution':'rbxassetid://95113702895543','Locked':false,'ItemName':'Bow','Owned':true,'ImageScale':3},'del':[],'add':[{'parent':'Body#1','node':{'a':{'WrapGroup':1,'IgnoreTransparency':true,'__LYBowReplacementMeshPart':true,'__LYCustomBowMesh':true},'p':{'Reflectance':0,'CanCollide':false,'Color':[0.6392,0.6353,0.6471],'Massless':true,'CanTouch':false,'rel':[-0.0002,-0.0002,0.0817,0.0001,-0.0001,1,0.0001,-1,-0.0001,1,0.0001,-0.0001],'Transparency':0,'ref':'Body#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'Plastic','CastShadow':true,'Size':[1,1,1]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[0.25,0.25,0.25],'MeshId':'rbxassetid://80147707463344','TextureId':'rbxassetid://87690225474067','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'}],'n':'__LYCustomBowBody'}},{'parent':'Arrow#1','node':{'a':{'WrapGroup':1,'IgnoreTransparency':true,'__LYBowReplacementMeshPart':true,'__LYCustomBowMesh':true},'p':{'Reflectance':0,'CanCollide':false,'Color':[0.6392,0.6353,0.6471],'Massless':true,'CanTouch':false,'rel':[0.0004,-0.0148,-0.0005,0,1,0,1,0,0,0,0,-1],'Transparency':0,'ref':'Arrow#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'Plastic','CastShadow':true,'Size':[1,1,1]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[0.25,0.25,0.25],'MeshId':'rbxassetid://97839236861642','TextureId':'rbxassetid://82458179247269','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'}],'n':'__LYCustomBowArrow'}}]}]=] -- crc 3312837342 len 3058
-MD3.samsamhubSkinData["Jett"] = [=[{'src':'Keynais','il':{'Animations':{'Sprint':'daggers_keynais_sprint','Idle':'daggers_keynais_idle','FinalShoot':'daggers_keynais_shoot2','EmptyInspect':'fists_inspect','Shoot1':'daggers_keynais_shoot1','Reload':'daggers_keynais_reload','Equip':'daggers_keynais_equip','Inspect':'daggers_keynais_inspect','EmptyEquip':'fists_equip','EmptyIdle':'fists_idle'},'Image':'','ImageHighResolution':''},'set':[],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Keynais','Unlocked':true,'DisplayName':'Jett','WorldViewModelName':'Keynais','Image':'','ViewModelName':'Jett','ImageHighResolution':'','Locked':false,'ItemName':'Daggers','Owned':true,'ImageScale':3},'del':['RightBody#1/MeshPart#1','LeftBody#1/MeshPart#1'],'add':[{'parent':'RightBody#1','node':{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYDaggerHiddenAnchor':true,'WrapGroup':1},'p':{'ref':'RightBody#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[1,0.7294,0.0392],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[0.0004,-0.0004,0.0004,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'rbxassetid://94772705561955','Anchored':true,'Material':'Glass','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','k':[{'a':{'EmitDelay':0,'EmitCount':1,'WrapGroup':3},'p':{'Color':[[0,[1,0.7686,0.4]],[1,[1,0.7686,0.4]]],'Drag':0,'ZOffset':0.1,'TimeScale':0.5,'LightInfluence':0,'Lifetime':[0.1,0.2],'Speed':[0.0008,0.0008],'Texture':'rbxassetid://14035694679','Enabled':true,'Acceleration':[0,0,0],'RotSpeed':[0,0],'LockedToPart':true,'Rate':12,'Rotation':[0,0],'Transparency':[[0,0,0],[1,0,0]],'Squash':[[0,0,0],[1,0,0]],'Orientation':'FacingCamera','LightEmission':1,'EmissionDirection':'Top','Size':[[0,0,0],[0.5,0.1,0.075],[1,0,0]],'SpreadAngle':[-360,360]},'c':'ParticleEmitter','n':'sparkle'},{'k':[{'a':{'WrapGroup':3},'p':{'Enabled':true,'FaceCamera':false,'Color':[[0,[1,0.7686,0.4]],[1,[1,0.7686,0.4]]],'a1':'RightBody#1/__LYDaggerAnchor_MeshPart#1/TrailA0#1','WidthScale':[[0,1,0],[1,1,0]],'a0':'RightBody#1/__LYDaggerAnchor_MeshPart#1/TrailA1#1','LightInfluence':0,'Transparency':[[0,0,0],[1,0,0]],'TextureLength':0.9,'Lifetime':0.075,'LightEmission':1,'MinLength':0,'TextureMode':'Stretch','Texture':'rbxassetid://15061023055'},'c':'Trail','n':'Trail'}],'p':{'Visible':false,'CFrame':[0.0857,0.484,0.0017,1,0,0,0,1,0,0,0,1]},'c':'Attachment','n':'TrailA0'},{'p':{'Visible':false,'CFrame':[0,0.6675,0,1,0,0,0,1,0,0,0,1]},'c':'Attachment','n':'TrailA1'},{'k':[{'a':{'WrapGroup':3},'p':{'Enabled':true,'FaceCamera':false,'Color':[[0,[1,0.7686,0.4]],[1,[1,0.7686,0.4]]],'a1':'RightBody#1/__LYDaggerAnchor_MeshPart#1/TrailA2#1','WidthScale':[[0,1,0],[1,1,0]],'a0':'RightBody#1/__LYDaggerAnchor_MeshPart#1/TrailA0#1','LightInfluence':0,'Transparency':[[0,0,0],[1,0,0]],'TextureLength':0.9,'Lifetime':0.075,'LightEmission':1,'MinLength':0,'TextureMode':'Stretch','Texture':'rbxassetid://15061023055'},'c':'Trail','n':'Trail'}],'p':{'Visible':false,'CFrame':[-0.086,0.484,0.002,1,0,0,0,1,0,0,0,1]},'c':'Attachment','n':'TrailA2'}],'n':'__LYDaggerAnchor_MeshPart'}},{'parent':'RightBody#1','node':{'a':{'WrapGroup':1,'__LYDaggerReplacementMeshPart':true,'IgnoreTransparency':true,'__LYCustomDaggerMesh':true},'p':{'Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'rel':[0.0004,-0.0004,0.0004,0,0,-1,-1,0,0,0,1,0],'Transparency':0,'ref':'RightBody#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'Glass','CastShadow':false,'Size':[1,1,1]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[0.03,0.03,0.03],'MeshId':'rbxassetid://128075492497238','TextureId':'rbxassetid://79246900644201','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'},{'p':{'p0':'RightBody#1/__LYDaggerAnchor_MeshPart#1','p1':'RightBody#1/MeshPart#1'},'c':'WeldConstraint','n':'__LYDaggerReplacementWeld'}],'n':'MeshPart'}},{'parent':'LeftBody#1','node':{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYDaggerHiddenAnchor':true,'WrapGroup':1},'p':{'ref':'LeftBody#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[1,0.7294,0.0392],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[0.0004,-0.0001,0.0004,-1,0,-0.0001,0,1,0,0.0001,0,-1],'Transparency':1,'TextureID':'','MeshId':'rbxassetid://94772705561955','Anchored':true,'Material':'Glass','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','k':[{'a':{'EmitDelay':0,'EmitCount':1,'WrapGroup':3},'p':{'Color':[[0,[1,0.7686,0.4]],[1,[1,0.7686,0.4]]],'Drag':0,'ZOffset':0.1,'TimeScale':0.5,'LightInfluence':0,'Lifetime':[0.1,0.2],'Speed':[0.0008,0.0008],'Texture':'rbxassetid://14035694679','Enabled':true,'Acceleration':[0,0,0],'RotSpeed':[0,0],'LockedToPart':true,'Rate':12,'Rotation':[0,0],'Transparency':[[0,0,0],[1,0,0]],'Squash':[[0,0,0],[1,0,0]],'Orientation':'FacingCamera','LightEmission':1,'EmissionDirection':'Top','Size':[[0,0,0],[0.5,0.1,0.075],[1,0,0]],'SpreadAngle':[-360,360]},'c':'ParticleEmitter','n':'sparkle'},{'k':[{'a':{'WrapGroup':3},'p':{'Enabled':true,'FaceCamera':false,'Color':[[0,[1,0.7686,0.4]],[1,[1,0.7686,0.4]]],'a1':'LeftBody#1/__LYDaggerAnchor_MeshPart#1/TrailA0#1','WidthScale':[[0,1,0],[1,1,0]],'a0':'LeftBody#1/__LYDaggerAnchor_MeshPart#1/TrailA1#1','LightInfluence':0,'Transparency':[[0,0,0],[1,0,0]],'TextureLength':0.9,'Lifetime':0.075,'LightEmission':1,'MinLength':0,'TextureMode':'Stretch','Texture':'rbxassetid://15061023055'},'c':'Trail','n':'Trail'}],'p':{'Visible':false,'CFrame':[0.0857,0.484,0.0017,1,0,0,0,1,0,0,0,1]},'c':'Attachment','n':'TrailA0'},{'p':{'Visible':false,'CFrame':[0,0.6675,0,1,0,0,0,1,0,0,0,1]},'c':'Attachment','n':'TrailA1'},{'k':[{'a':{'WrapGroup':3},'p':{'Enabled':true,'FaceCamera':false,'Color':[[0,[1,0.7686,0.4]],[1,[1,0.7686,0.4]]],'a1':'LeftBody#1/__LYDaggerAnchor_MeshPart#1/TrailA2#1','WidthScale':[[0,1,0],[1,1,0]],'a0':'LeftBody#1/__LYDaggerAnchor_MeshPart#1/TrailA0#1','LightInfluence':0,'Transparency':[[0,0,0],[1,0,0]],'TextureLength':0.9,'Lifetime':0.075,'LightEmission':1,'MinLength':0,'TextureMode':'Stretch','Texture':'rbxassetid://15061023055'},'c':'Trail','n':'Trail'}],'p':{'Visible':false,'CFrame':[-0.086,0.484,0.002,1,0,0,0,1,0,0,0,1]},'c':'Attachment','n':'TrailA2'}],'n':'__LYDaggerAnchor_MeshPart'}},{'parent':'LeftBody#1','node':{'a':{'WrapGroup':1,'__LYDaggerReplacementMeshPart':true,'IgnoreTransparency':true,'__LYCustomDaggerMesh':true},'p':{'Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'rel':[0.0004,-0.0001,0.0004,0,0.0001,-1,-1,0,0,0,1,0.0001],'Transparency':0,'ref':'LeftBody#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'Glass','CastShadow':false,'Size':[1,1,1]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[0.03,0.03,0.03],'MeshId':'rbxassetid://128075492497238','TextureId':'rbxassetid://79246900644201','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'},{'p':{'p0':'LeftBody#1/__LYDaggerAnchor_MeshPart#1','p1':'LeftBody#1/MeshPart#1'},'c':'WeldConstraint','n':'__LYDaggerReplacementWeld'}],'n':'MeshPart'}}]}]=] -- crc 2745319711 len 7032
-MD3.samsamhubSkinData["Arcane"] = [=[{'src':'Sheriff','il':{'Animations':{'Sprint':'revolver_sheriff_sprint','QuickShot':'revolver_sheriff_quickshot','Idle':'revolver_sheriff_idle','Shoot1':'revolver_sheriff_shoot1','Equip':'revolver_sheriff_equip','Inspect':'revolver_sheriff_inspect','EmptyReload':'revolver_sheriff_reload_empty','Reload':'revolver_sheriff_reload'},'Image':'rbxassetid://86963409317171','ImageHighResolution':'rbxassetid://86963409317171'},'set':[{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'Front#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'Front#1/MeshPart#2','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'ReloadBullets#1/3#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'ReloadBullets#1/4#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'ReloadBullets#1/5#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'ReloadBullets#1/6#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'ReloadBullets#1/1#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'ReloadBullets#1/2#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'ReloadBulletsHolder#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'Bullets#1/3#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'Bullets#1/4#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'Bullets#1/5#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'Bullets#1/6#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'Bullets#1/1#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'Bullets#1/2#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'Chamber#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'Hammer#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'Body#1/_charm_attachment_model#1/Extra#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'Body#1/_charm_attachment_model#1/Extra#1/MeshPart#2','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'Body#1/_charm_attachment_model#1/Extra#1/MeshPart#3','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'Body#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'Body#1/MeshPart#2','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}}],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Sheriff','Unlocked':true,'DisplayName':'Arcane','WorldViewModelName':'Sheriff','Image':'rbxassetid://86963409317171','ViewModelName':'Arcane','ImageHighResolution':'rbxassetid://86963409317171','Locked':false,'ItemName':'Revolver','Owned':true,'ImageScale':3},'del':[],'add':[{'parent':'Front#1','node':{'a':{'__LYCustomRevolverMesh':true,'__LYRevolverReplacementMeshPart':true,'IgnoreTransparency':true,'WrapGroup':1},'p':{'Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'rel':[-0.078,-0.2196,0.0001,0,0,-1,0,1,0,1,0,0],'Transparency':0,'ref':'Front#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[1,1,1]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[3.24,3.24,3.24],'MeshId':'rbxassetid://97846055360626','TextureId':'rbxassetid://134888509020116','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'}],'n':'__LYCustomRevolverReplacement'}}]}]=] -- crc 1436760324 len 6864
-MD3.samsamhubSkinData["RPG Raze"] = [=[{'src':'Nuke Launcher','il':{'Animations':{'Sprint':'rpg_sprint','Idle':'rpg_idle','Shoot1':'rpg_shoot1','Equip':'rpg_equip','Inspect':'rpg_inspect','RareInspect':'rpg_inspect_rare','Reload':'rpg_reload'},'Image':'rbxassetid://98661318587721','ImageHighResolution':'rbxassetid://98661318587721'},'set':[{'a':{'IgnoreTransparency':true,'WrapGroup':0,'IgnoreObject':true,'__LYRpgHiddenPart':true},'path':'Rocket#1/Neck#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'WrapGroup':0,'IgnoreObject':true,'__LYRpgHiddenPart':true},'path':'Rocket#1/Head#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'__LYCustomRpgMesh':true,'__LYRpgReplacementAdjusted':true,'IgnoreTransparency':true},'path':'Body#1/MeshPart#1','p':{'rel':[-0.0002,0.3009,0.2837,1,0,0,0,1,0,0,0,1],'sc':0.5,'CanQuery':false,'TextureID':'rbxassetid://133257377819985','MeshId':'rbxassetid://81554047161707','CanTouch':false,'Massless':true}},{'a':{'__LYCustomRpgMesh':true,'__LYRpgReplacementAdjusted':true,'IgnoreTransparency':true},'path':'Body#1/MeshPart#2','p':{'rel':[-0.0002,0.5319,0.905,1,0,0,0,1,0,0,0,1],'sc':0.5,'CanQuery':false,'TextureID':'rbxassetid://133257377819985','MeshId':'rbxassetid://81554047161707','CanTouch':false,'Massless':true}},{'a':{'IgnoreTransparency':true,'WrapGroup':0,'IgnoreObject':true,'__LYRpgHiddenPart':true},'path':'Juggle1#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'WrapGroup':0,'IgnoreObject':true,'__LYRpgHiddenPart':true},'path':'Juggle1#1/MeshPart#2','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'WrapGroup':0,'IgnoreObject':true,'__LYRpgHiddenPart':true},'path':'Juggle2#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'WrapGroup':0,'IgnoreObject':true,'__LYRpgHiddenPart':true},'path':'Juggle2#1/MeshPart#2','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}}],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Nuke Launcher','Unlocked':true,'DisplayName':'Raze','WorldViewModelName':'RPG Raze','Image':'rbxassetid://98661318587721','ViewModelName':'RPG Raze','ImageHighResolution':'rbxassetid://98661318587721','Locked':false,'ItemName':'RPG','Owned':true,'ImageScale':3},'del':[],'add':[]}]=] -- crc 762217857 len 2793
-MD3.samsamhubSkinData["Oni Shotgun"] = [=[{'src':'Shotgun','il':{'Image':'rbxassetid://123737682294040','ImageHighResolution':'rbxassetid://123737682294040','EliminationFeedImageScale':2.75,'EliminationFeedImage':'rbxassetid://102792045452343','Animations':{'Sprint':'shotgun_sprint','RareInspect':'shotgun_inspect_rare','ReloadFinish':'shotgun_reload_finish','EmptyReloadStart':'shotgun_reload_empty_start','ReloadStart':'shotgun_reload_start','EmptyReloadSegment':'shotgun_reload_segment','Shoot1':'shotgun_shoot1','EmptyReloadFinish':'shotgun_reload_empty_finish2','Equip':'shotgun_equip','Inspect':'shotgun_inspect','ReloadSegment':'shotgun_reload_segment','Idle':'shotgun_idle'}},'set':[{'path':'Shell#1/MeshPart#1','p':{'Color':[0.2392,0.3176,0.5137]}},{'path':'Shell#1/MeshPart#2','p':{'Color':[0.7529,0.7529,0.7529],'Material':'Metal'}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'Body#1/_charm_attachment_model#1/Extra#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'Body#1/_charm_attachment_model#1/Extra#1/MeshPart#2','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'Body#1/_charm_attachment_model#1/Extra#1/MeshPart#3','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'Body#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'Body#1/MeshPart#2','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'Body#1/MeshPart#3','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'Body#1/MeshPart#4','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'Body#1/MeshPart#5','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__LYRevolverHiddenAnchor':true},'path':'Pump#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'path':'ReloadShell#1/MeshPart#1','p':{'Color':[0.2392,0.3176,0.5137]}},{'path':'ReloadShell#1/MeshPart#2','p':{'Color':[0.7529,0.7529,0.7529],'Material':'Metal'}}],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Shotgun','Unlocked':true,'DisplayName':'Oni Shotgun','WorldViewModelName':'Shotgun','Image':'rbxassetid://123737682294040','ViewModelName':'Oni Shotgun','ImageHighResolution':'rbxassetid://123737682294040','Locked':false,'ItemName':'Shotgun','Owned':true,'ImageScale':3},'del':[],'add':[{'parent':'Body#1','node':{'a':{'__LYCustomRevolverMesh':true,'__LYRevolverReplacementMeshPart':true,'IgnoreTransparency':true,'WrapGroup':2},'p':{'Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'rel':[0.0581,-0.1151,-0.9069,0,0,-1,0,1,0,1,0,0],'Transparency':0,'ref':'Body#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[1,1,1]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[6.83,6.83,6.83],'MeshId':'rbxassetid://125182504680730','TextureId':'rbxassetid://72452350200444','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'}],'n':'__LYCustomRevolverReplacement'}}]}]=] -- crc 3049408271 len 4146
-MD3.samsamhubSkinData["Camera"] = [=[{'src':'Jump Pad','il':{'Image':'','ImageHighResolution':'','EliminationFeedImageScale':1.5,'EliminationFeedImage':'rbxassetid://113965546523164','Animations':{'Sprint':'jumppad_sprint','Idle':'jumppad_idle','Equip':'jumppad_equip','Inspect':'jumppad_inspect','Use':'jumppad_use'}},'set':[],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Jump Pad','Unlocked':true,'DisplayName':'Camera','WorldViewModelName':'Camera','Image':'','ViewModelName':'Camera','ImageHighResolution':'','Locked':false,'ItemName':'Jump Pad','Owned':true,'ImageScale':3},'del':['MedkitBottom#1/MeshPart#1','MedkitBottom#1/MeshPart#2','MedkitBottom#1/MeshPart#3'],'add':[{'parent':'MedkitBottom#1','node':{'a':{'WrapGroup':2,'__LYSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'MedkitBottom#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.4588,0.4667,0.498],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0005,-0.0051,-0.0008,0,0,-1,0,1,0,1,0,0],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__LYSatchelAnchor_MeshPart'}},{'parent':'MedkitBottom#1','node':{'a':{'WrapGroup':3,'__LYSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'MedkitBottom#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.3294,0.5412,0.7059],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0005,-0.0139,-0.0008,0,0,-1,0,1,0,1,0,0],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'Neon','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__LYSatchelAnchor_MeshPart'}},{'parent':'MedkitBottom#1','node':{'a':{'WrapGroup':1,'__LYSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'MedkitBottom#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.5255,0.5333,0.5686],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0005,-0.0164,-0.0008,0,0,-1,0,1,0,1,0,0],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__LYSatchelAnchor_MeshPart'}},{'parent':'MedkitBottom#1','node':{'a':{'__LYSatchelReplacementMeshPart':true,'__LYCustomSatchelMesh':true,'IgnoreTransparency':true,'WrapGroup':2},'p':{'Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'rel':[-0.0005,-0.0118,-0.0008,0,0,-1,-1,0,0,0,1,0],'Transparency':0,'ref':'MedkitBottom#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[1,1,1]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[0.5,0.5,0.5],'MeshId':'rbxassetid://112849634500139','TextureId':'rbxassetid://126465878813440','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'},{'p':{'p0':'MedkitBottom#1/__LYSatchelAnchor_MeshPart#1','p1':'MedkitBottom#1/__LYCustomSatchelReplacement#1'},'c':'WeldConstraint','n':'__LYSatchelReplacementWeld'}],'n':'__LYCustomSatchelReplacement'}}]}]=] -- crc 1140852639 len 3073
-MD3.samsamhubSkinData["Diamond Sword"] = [=[{'src':'Machete','il':{'Animations':{'Sprint':'knife_sprint','RareInspect':'knife_inspect_rare','Idle':'knife_idle','HeavyAttack1':'knife_heavyattack1','Equip':'knife_equip','Inspect':'knife_inspect','Attack1':'knife_attack1','Attack2':'knife_attack2'},'Image':'rbxassetid://108830479771369','ImageHighResolution':'rbxassetid://108830479771369'},'set':[],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Machete','Unlocked':true,'DisplayName':'Diamond Sword','WorldViewModelName':'Machete','Image':'rbxassetid://108830479771369','ViewModelName':'Diamond Sword','ImageHighResolution':'rbxassetid://108830479771369','Locked':false,'ItemName':'Knife','Owned':true,'ImageScale':3},'del':['Body#1/MeshPart#1','Body#1/MeshPart#2','Body#1/MeshPart#3'],'add':[{'parent':'Body#1','node':{'a':{'WrapGroup':2,'__LYSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.1216,0.1216,0.1216],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0002,-0.0439,-0.0059,0,0,-1,0,1,0,1,0,0],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__LYSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':1,'__LYSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.6471,0.6471,0.6471],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0002,1.1538,0.0234,0,0,-1,0,1,0,1,0,0],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'Metal','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__LYSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':1,'__LYSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.298,0.3059,0.3451],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0002,-0.0347,0.0293,0,0,-1,0,1,0,1,0,0],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__LYSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'__LYSatchelReplacementMeshPart':true,'__LYCustomSatchelMesh':true,'IgnoreTransparency':true,'WrapGroup':2},'p':{'Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'rel':[0.0168,0.5325,0.0737,-0.8389,0.1677,0.5178,0.5136,-0.0715,0.8551,0.1805,0.9832,-0.0262],'Transparency':0,'ref':'Body#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[1,1,1]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[0.031,0.031,0.031],'MeshId':'rbxassetid://77165343516444','TextureId':'rbxassetid://85294803794565','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'},{'p':{'p0':'Body#1/__LYSatchelAnchor_MeshPart#1','p1':'Body#1/__LYCustomSatchelReplacement#1'},'c':'WeldConstraint','n':'__LYSatchelReplacementWeld'}],'n':'__LYCustomSatchelReplacement'}}]}]=] -- crc 3518085815 len 3145
-MD3.samsamhubSkinData["Raze Grenade"] = [=[{'src':'Glorious Grenade','il':{'Animations':{'Sprint':'grenade_sprint','Idle':'grenade_idle','LobFinish':'grenade_lob_finish','ThrowStart':'grenade_throw_start_pinpull','LobStart':'grenade_lob_start_pinpull','ThrowFinish':'grenade_throw_finish','Equip':'grenade_equip','Inspect':'grenade_inspect','LobIdle':'grenade_lob_idle','ThrowIdle':'grenade_throw_idle'},'Image':'rbxassetid://133631375454811','ImageHighResolution':'rbxassetid://133631375454811'},'set':[],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Glorious Grenade','Unlocked':true,'DisplayName':'Raze','WorldViewModelName':'Glorious Grenade','Image':'rbxassetid://133631375454811','ViewModelName':'Raze Grenade','ImageHighResolution':'rbxassetid://133631375454811','Locked':false,'ItemName':'Grenade','Owned':true,'ImageScale':3},'del':['Body#1/MeshPart#1','Body#1/MeshPart#2','Body#1/MeshPart#3','Body#1/MeshPart#4'],'add':[{'parent':'Body#1','node':{'a':{'WrapGroup':2,'__LYSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[1,0.6902,0.1922],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0913,0.2725,0.0001,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','k':[{'p':{'Visible':false,'CFrame':[0.0073,0.0571,-0.239,0,-1,0,-1,0,0,0,0,-1]},'c':'Attachment','n':'_charm_pivot_attachment'}],'n':'__LYSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':3,'__LYSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.702,0.6588,0.5294],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0037,-0.2258,-0.0007,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'Neon','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__LYSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':2,'__LYSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[1,0.7804,0.2275],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0759,0.1152,0.0001,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__LYSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':1,'__LYSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.6118,0.3373,1],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0007,0.0974,-0.0007,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__LYSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'__LYSatchelReplacementMeshPart':true,'__LYCustomSatchelMesh':true,'IgnoreTransparency':true,'WrapGroup':2},'p':{'Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'rel':[-0.0427,0.0647,-0.0004,-1,0,0,0,1,0,0,0,-1],'Transparency':0,'ref':'Body#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[1,1,1]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[0.8,0.8,0.8],'MeshId':'rbxassetid://80612596590820','TextureId':'rbxassetid://123233413518598','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'},{'p':{'p0':'Body#1/__LYSatchelAnchor_MeshPart#1','p1':'Body#1/__LYCustomSatchelReplacement#1'},'c':'WeldConstraint','n':'__LYSatchelReplacementWeld'}],'n':'__LYCustomSatchelReplacement'}}]}]=] -- crc 3503843197 len 3855
-MD3.samsamhubSkinData["Raze"] = [=[{'src':'Satchel','il':{'Image':'','ImageHighResolution':'','EliminationFeedImageScale':1.5,'EliminationFeedImage':'rbxassetid://99042007892528','Animations':{'Sprint':'grenade_sprint','Idle':'grenade_idle','LobFinish':'grenade_lob_finish','Detonate':'satchel_detonate','ThrowStart':'grenade_throw_start','LobIdle':'grenade_lob_idle','LobStart':'grenade_lob_start','ThrowIdle':'grenade_throw_idle','Inspect':'grenade_inspect','ThrowFinish':'grenade_throw_finish','Equip':'satchel_equip'}},'set':[],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Satchel','Unlocked':true,'DisplayName':'Raze','WorldViewModelName':'Raze','Image':'','ViewModelName':'Raze','ImageHighResolution':'','Locked':false,'ItemName':'Satchel','Owned':true,'ImageScale':3},'del':['Body#1/Beep#1','Body#1/MeshPart#1','Body#1/MeshPart#2','Body#1/MeshPart#3','Body#1/MeshPart#4'],'add':[{'parent':'Body#1','node':{'a':{'WrapGroup':1,'__LYSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[1,0.6902,0],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[0.1516,0.1769,0.2465,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__LYSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':1,'__LYSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.1373,0.2275,0.1412],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.001,0.1846,0.0063,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__LYSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':1,'__LYSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.7686,0.1569,0.1098],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.2339,0.2118,0.1306,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__LYSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':2,'__LYSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.1294,0.1294,0.1294],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0155,0.1846,0.0775,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__LYSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':3,'__LYSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.7686,0.2784,0.2784],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0334,0.046,0.2893,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'Neon','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__LYSatchelAnchor_Beep'}},{'parent':'Body#1','node':{'a':{'__LYSatchelReplacementMeshPart':true,'__LYCustomSatchelMesh':true,'IgnoreTransparency':true,'WrapGroup':1},'p':{'Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'rel':[-0.0264,0.1608,0.15,0,0,1,0,1,0,-1,0,0],'Transparency':0,'ref':'Body#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[1,1,1]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[0.5,0.5,0.5],'MeshId':'rbxassetid://129982008330139','TextureId':'rbxassetid://121713947189258','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'},{'p':{'p0':'Body#1/__LYSatchelAnchor_MeshPart#1','p1':'Body#1/__LYCustomSatchelReplacement#1'},'c':'WeldConstraint','n':'__LYSatchelReplacementWeld'}],'n':'__LYCustomSatchelReplacement'}}]}]=] -- crc 141077400 len 4187
-MD3.samsamhubSkinData["Spike"] = [=[{'src':'Subspace Tripmine','il':{'Image':'','ImageHighResolution':'','EliminationFeedImageScale':1.25,'EliminationFeedImage':'rbxassetid://132898234292756','Animations':{'Sprint':'subspacetripmine_sprint','Idle':'subspacetripmine_idle','Equip':'subspacetripmine_equip','Inspect':'subspacetripmine_inspect','Use':'subspacetripmine_use'}},'set':[{'a':{'IgnoreTransparency':true,'__LYCustomTripmineMeshPart':true},'path':'Body#1/MeshPart#1','p':{'sc':28.9,'CanQuery':false,'Color':[0.6392,0.6353,0.6471],'MeshId':'rbxassetid://97754746098028','Material':'SmoothPlastic','Massless':true}}],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Subspace Tripmine','Unlocked':true,'DisplayName':'Spike','WorldViewModelName':'Spike','Image':'','ViewModelName':'Spike','ImageHighResolution':'','Locked':false,'ItemName':'Subspace Tripmine','Owned':true,'ImageScale':3},'del':['Star#1/MeshPart#1'],'add':[]}]=] -- crc 527065495 len 910
-MD3.samsamhubSkinData["Reaver"] = [=[{'src':'Pencil','il':{'Animations':{'Sprint':'knife_pencil_sprint','HeavyAttack1':'knife_pencil_heavyattack1','Idle':'knife_pencil_idle','HeavyAttackAnimationHit':'knife_pencil_heavyattack_hit','Equip':'knife_pencil_equip','Inspect':'knife_pencil_inspect','Attack1':'knife_pencil_attack1','Attack2':'knife_pencil_attack2'},'Image':'rbxassetid://128587109500034','ImageHighResolution':'rbxassetid://128587109500034'},'set':[],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Pencil','Unlocked':true,'DisplayName':'Reaver','WorldViewModelName':'Pencil','Image':'rbxassetid://128587109500034','ViewModelName':'Reaver','ImageHighResolution':'rbxassetid://128587109500034','Locked':false,'ItemName':'Knife','Owned':true,'ImageScale':3},'del':['Body#1/MeshPart#1','Body#1/MeshPart#2','Body#1/MeshPart#3','Body#1/MeshPart#4','Body#1/MeshPart#5'],'add':[{'parent':'Body#1','node':{'a':{'WrapGroup':3,'__LYSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.1333,0.1333,0.1333],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0127,1.1106,-0.0004,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__LYSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':2,'__LYSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.6902,0.4784,0.3529],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0122,1.0237,-0.0016,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__LYSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':1,'__LYSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[1,0.7608,0.2078],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0122,0.3401,-0.0016,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__LYSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':3,'__LYSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[1,0.4039,0.5333],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0122,-0.4619,-0.0016,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__LYSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':2,'__LYSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.2784,0.2667,0.2745],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0122,-0.3627,-0.0016,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__LYSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'__LYSatchelReplacementMeshPart':true,'__LYCustomSatchelMesh':true,'IgnoreTransparency':true,'WrapGroup':3},'p':{'Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'rel':[-0.0127,0.83,-0.0013,0,0,-1,0,1,0,1,0,0],'Transparency':0,'ref':'Body#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[1,1,1]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[0.3,0.3,0.3],'MeshId':'rbxassetid://76054449109492','TextureId':'rbxassetid://117578984602503','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'},{'p':{'p0':'Body#1/__LYSatchelAnchor_MeshPart#1','p1':'Body#1/__LYCustomSatchelReplacement#1'},'c':'WeldConstraint','n':'__LYSatchelReplacementWeld'}],'n':'__LYCustomSatchelReplacement'}}]}]=] -- crc 1138632012 len 4201
-MD3.samsamhubSkinData["Sky"] = [=[{'src':'Shining Star','il':{'Animations':{'Sprint':'grenade_sprint','Idle':'grenade_idle','LobFinish':'grenade_lob_finish','ThrowStart':'flashbang_shiningstar_throw_start','LobStart':'flashbang_shiningstar_lob_start','ThrowFinish':'grenade_throw_finish','Equip':'grenade_equip','Inspect':'grenade_inspect','LobIdle':'grenade_lob_idle','ThrowIdle':'grenade_throw_idle'},'Image':'','ImageHighResolution':''},'set':[],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Shining Star','Unlocked':true,'DisplayName':'Sky','WorldViewModelName':'Shining Star','Image':'','ViewModelName':'Sky','ImageHighResolution':'','Locked':false,'ItemName':'Flashbang','Owned':true,'ImageScale':3},'del':['Body#1/MeshPart#1'],'add':[{'parent':'Body#1','node':{'a':{'WrapGroup':1,'__LYSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0.1,'CanCollide':false,'Color':[1,0.8353,0],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[0.0004,-0.0001,0.0002,0,0,-1,0,1,0,1,0,0],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'Glass','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','k':[{'k':[{'a':{'WrapGroup':3},'p':{'Color':[[0,[1,0.8549,0.7725]],[1,[1,0.8549,0.7725]]],'Drag':0,'ZOffset':1,'TimeScale':1,'LightInfluence':0,'Lifetime':[0.5,0.5],'Speed':[0.0023,0.0023],'Texture':'rbxassetid://10002331595','Enabled':true,'Acceleration':[0,0,0],'RotSpeed':[0,0],'LockedToPart':true,'Rate':8,'Rotation':[45,45],'Transparency':[[0,1,0],[0.5,0.9438,0],[1,1,0]],'Squash':[[0,0,0],[1,0,0]],'Orientation':'VelocityPerpendicular','LightEmission':1,'EmissionDirection':'Right','Size':[[0,0.5,0],[1,0.5,0]],'SpreadAngle':[0,0]},'c':'ParticleEmitter','n':'str1'},{'a':{'WrapGroup':3},'p':{'Color':[[0,[1,0.8549,0.7725]],[1,[1,0.8549,0.7725]]],'Drag':0,'ZOffset':1,'TimeScale':1,'LightInfluence':0,'Lifetime':[0.5,0.5],'Speed':[0.0023,0.0023],'Texture':'rbxassetid://10002331595','Enabled':true,'Acceleration':[0,0,0],'RotSpeed':[0,0],'LockedToPart':true,'Rate':8,'Rotation':[0,0],'Transparency':[[0,1,0],[0.5,0.9438,0],[1,1,0]],'Squash':[[0,0,0],[1,0,0]],'Orientation':'VelocityPerpendicular','LightEmission':1,'EmissionDirection':'Right','Size':[[0,0.65,0],[1,0.65,0]],'SpreadAngle':[0,0]},'c':'ParticleEmitter','n':'str1b'},{'a':{'WrapGroup':3},'p':{'Color':[[0,[1,0.8314,0.3255]],[1,[1,0.8314,0.3255]]],'Drag':0,'ZOffset':0.501,'TimeScale':1,'LightInfluence':0,'Lifetime':[0.5,0.5],'Speed':[0.0023,0.0023],'Texture':'rbxassetid://6938954766','Enabled':true,'Acceleration':[0,0,0],'RotSpeed':[0,0],'LockedToPart':true,'Rate':8,'Rotation':[90,90],'Transparency':[[0,1,0],[0.5015,0.975,0],[1,1,0]],'Squash':[[0,0,0],[1,0,0]],'Orientation':'FacingCamera','LightEmission':1,'EmissionDirection':'Top','Size':[[0,1.5,0],[1,1.5,0]],'SpreadAngle':[-360,360]},'c':'ParticleEmitter','n':'ray2'},{'a':{'WrapGroup':3},'p':{'Color':[[0,[1,0.8314,0.3255]],[1,[1,0.8314,0.3255]]],'Drag':0,'ZOffset':0.5,'TimeScale':1,'LightInfluence':0,'Lifetime':[0.5,0.5],'Speed':[0.0011,0.0011],'Texture':'rbxassetid://13816054573','Enabled':true,'Acceleration':[0,0,0],'RotSpeed':[0,0],'LockedToPart':true,'Rate':4,'Rotation':[-360,360],'Transparency':[[0,1,0],[0.5,0.45,0],[1,1,0]],'Squash':[[0,0,0],[1,0,0]],'Orientation':'FacingCamera','LightEmission':1,'EmissionDirection':'Top','Size':[[0,1.75,0],[1,1.75,0]],'SpreadAngle':[-360,360]},'c':'ParticleEmitter','n':'glow'},{'a':{'WrapGroup':3},'p':{'Color':[[0,[1,0.8314,0.3255]],[1,[1,0.8314,0.3255]]],'Drag':8,'ZOffset':0,'TimeScale':1,'LightInfluence':0,'Lifetime':[0,0.5],'Speed':[6,6],'Texture':'rbxassetid://14035694679','Enabled':true,'Acceleration':[0,0,0],'RotSpeed':[0,0],'LockedToPart':true,'Rate':24,'Rotation':[0,0],'Transparency':[[0,0,0],[1,0,0]],'Squash':[[0,0,0],[1,0,0]],'Orientation':'FacingCamera','LightEmission':1,'EmissionDirection':'Top','Size':[[0,0,0],[0.1008,0.3425,0],[1,0,0]],'SpreadAngle':[-360,360]},'c':'ParticleEmitter','n':'hard-circles'},{'a':{'WrapGroup':3},'p':{'Color':[[0,[1,0.8314,0.3255]],[1,[1,0.8314,0.3255]]],'Drag':0,'ZOffset':0.501,'TimeScale':1,'LightInfluence':0,'Lifetime':[0.5,0.5],'Speed':[0.0011,0.0011],'Texture':'rbxassetid://12015608405','Enabled':true,'Acceleration':[0,0,0],'RotSpeed':[0,0],'LockedToPart':true,'Rate':4,'Rotation':[0,0],'Transparency':[[0,1,0],[0.5,0.45,0],[1,1,0]],'Squash':[[0,0,0],[1,0,0]],'Orientation':'FacingCamera','LightEmission':1,'EmissionDirection':'Top','Size':[[0,1.5,0],[1,1.5,0]],'SpreadAngle':[-360,360]},'c':'ParticleEmitter','n':'ray1'}],'p':{'Visible':false,'CFrame':[0,0,0,1,0,0,0,1,0,0,0,1]},'c':'Attachment','n':'Attachment'}],'n':'__LYSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'__LYSatchelReplacementMeshPart':true,'__LYCustomSatchelMesh':true,'IgnoreTransparency':true,'WrapGroup':1},'p':{'Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'rel':[0.0004,-0.0001,0.0002,1,0,0,0,1,0,0,0,1],'Transparency':0,'ref':'Body#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'Glass','CastShadow':false,'Size':[1,1,1]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[0.6,0.6,0.6],'MeshId':'rbxassetid://78577370691269','TextureId':'rbxassetid://130284287910497','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'},{'p':{'p0':'Body#1/__LYSatchelAnchor_MeshPart#1','p1':'Body#1/__LYCustomSatchelReplacement#1'},'c':'WeldConstraint','n':'__LYSatchelReplacementWeld'}],'n':'__LYCustomSatchelReplacement'}}]}]=] -- crc 59949012 len 5485
-MD3.samsamhubSkinData["Chamber"] = [=[{'src':'Keyper','il':{'Animations':{'Sprint':'sniper_sprint','Idle':'sniper_idle','Shoot1':'sniper_keyper_shoot1','Equip':'sniper_keyper_equip','Inspect':'sniper_inspect','EmptyReload':'sniper_reload_empty','Reload':'sniper_reload'},'Image':'rbxassetid://105309540778092','ImageHighResolution':'rbxassetid://105309540778092'},'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Keyper','Unlocked':true,'DisplayName':'Chamber','WorldViewModelName':'Keyper','Image':'rbxassetid://105309540778092','ViewModelName':'Chamber','ImageHighResolution':'rbxassetid://105309540778092','Locked':false,'ItemName':'Sniper','Owned':true,'ImageScale':3},'del':[],'set':[{'path':'Magazine#1/MeshPart#1','a':{'WrapGroup':0,'IgnoreTransparency':true,'__LYCustomSniperHiddenPart':true,'IgnoreObject':true,'__LYHiddenSniperMesh':true},'p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'path':'Magazine#1/MeshPart#2','a':{'WrapGroup':0,'IgnoreTransparency':true,'__LYCustomSniperHiddenPart':true,'IgnoreObject':true,'__LYHiddenSniperMesh':true},'p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'path':'Bullet#1/MeshPart#1','a':{'WrapGroup':0,'IgnoreTransparency':true,'__LYCustomSniperHiddenPart':true,'IgnoreObject':true,'__LYHiddenSniperMesh':true},'p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'path':'Bolt#1/MeshPart#1','a':{'WrapGroup':0,'IgnoreTransparency':true,'__LYCustomSniperHiddenPart':true,'IgnoreObject':true,'__LYHiddenSniperMesh':true},'p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'path':'Body#1/MeshPart#1','a':{'WrapGroup':0,'IgnoreTransparency':true,'__LYCustomSniperHiddenPart':true,'IgnoreObject':true,'__LYHiddenSniperMesh':true},'p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'path':'Body#1/MeshPart#2','a':{'WrapGroup':0,'IgnoreTransparency':true,'__LYCustomSniperHiddenPart':true,'IgnoreObject':true,'__LYHiddenSniperMesh':true},'p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'path':'Body#1/MeshPart#3','a':{'WrapGroup':0,'IgnoreTransparency':true,'__LYCustomSniperHiddenPart':true,'IgnoreObject':true,'__LYHiddenSniperMesh':true},'p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}}],'add':[{'parent':'Body#1','node':{'c':'MeshPart','n':'__LYCustomSniperReplacement','a':{'WrapGroup':1,'__LYCustomSniperReplacement':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','TextureID':'rbxassetid://131686603013672','Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'MeshId':'rbxassetid://98786413608787','rel':[0.0034,0.3039,-0.9406,0,0,-1,0,1,0,1,0,0],'Transparency':0,'sc':0.03,'scz':true,'Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'CanQuery':false}}}]}]=] -- crc 2972873602 len 3106
-MD3.samsamhubSkinData["Operator"] = [=[{'src':'Sniper','il':{'Image':'rbxassetid://133689329349303','ImageHighResolution':'rbxassetid://133689329349303','EliminationFeedImageScale':3.25,'EliminationFeedImage':'rbxassetid://132853334508822','Animations':{'Sprint':'sniper_sprint','Idle':'sniper_idle','Shoot1':'sniper_shoot1','Equip':'sniper_equip','Inspect':'sniper_inspect','EmptyReload':'sniper_reload_empty','Reload':'sniper_reload'}},'set':[{'a':{'WrapGroup':0,'__LYSniperAnchorType':'Magazine','IgnoreTransparency':true,'__LYCustomSniperHiddenPart':true,'IgnoreObject':true,'__LYHiddenSniperMesh':true},'path':'Magazine#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'WrapGroup':0,'__LYSniperAnchorType':'Magazine','IgnoreTransparency':true,'__LYCustomSniperHiddenPart':true,'IgnoreObject':true,'__LYHiddenSniperMesh':true},'path':'Magazine#1/MeshPart#2','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'__LYSniperVisibleOffset':true,'__LYSniperAnchorType':'Bullet'},'path':'Bullet#1/MeshPart#1','p':{'rel':[-0.0004,0,-1.3137,0,0,-1,0,1,0,1,0,0]}},{'a':{'WrapGroup':0,'__LYSniperAnchorType':'Remove','IgnoreTransparency':true,'__LYCustomSniperHiddenPart':true,'IgnoreObject':true,'__LYHiddenSniperMesh':true},'path':'Bolt#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'WrapGroup':0,'__LYSniperAnchorType':'Remove','IgnoreTransparency':true,'__LYCustomSniperHiddenPart':true,'IgnoreObject':true,'__LYHiddenSniperMesh':true},'path':'Bolt#1/MeshPart#2','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'WrapGroup':0,'__LYSniperAnchorType':'Body','IgnoreTransparency':true,'__LYCustomSniperHiddenPart':true,'IgnoreObject':true,'__LYHiddenSniperMesh':true},'path':'Body#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'WrapGroup':0,'__LYSniperAnchorType':'Body','__LYCustomSniperHiddenPart':true,'IgnoreObject':true,'__LYHiddenSniperMesh':true},'path':'Body#1/MeshPart#2','p':{'Reflectance':0,'Transparency':1,'CanQuery':false,'MeshId':'','Material':'SmoothPlastic','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'WrapGroup':0,'__LYSniperAnchorType':'Body','IgnoreTransparency':true,'__LYCustomSniperHiddenPart':true,'IgnoreObject':true,'__LYHiddenSniperMesh':true},'path':'Body#1/MeshPart#3','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'WrapGroup':0,'__LYSniperAnchorType':'Body','IgnoreTransparency':true,'__LYCustomSniperHiddenPart':true,'IgnoreObject':true,'__LYHiddenSniperMesh':true},'path':'Body#1/MeshPart#4','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'WrapGroup':0,'__LYSniperAnchorType':'Body','IgnoreTransparency':true,'__LYCustomSniperHiddenPart':true,'IgnoreObject':true,'__LYHiddenSniperMesh':true},'path':'Body#1/MeshPart#5','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}}],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Sniper','Unlocked':true,'DisplayName':'Operator','WorldViewModelName':'Sniper','Image':'rbxassetid://133689329349303','ViewModelName':'Operator','ImageHighResolution':'rbxassetid://133689329349303','Locked':false,'ItemName':'Sniper','Owned':true,'ImageScale':3},'del':[],'add':[{'parent':'Magazine#1','node':{'a':{'WrapGroup':1,'__LYCustomSniperReplacement':true,'IgnoreTransparency':true},'p':{'ref':'Magazine#1/Primary#1','TextureID':'rbxassetid://80634410259243','Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'MeshId':'rbxassetid://80074307887476','rel':[-0.063,0.067,0.324,0,0,-1,0,1,0,1,0,0],'Transparency':0,'sc':0.375,'scz':true,'Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'CanQuery':false},'c':'MeshPart','n':'__LYCustomSniperMagazine'}},{'parent':'Body#1','node':{'a':{'WrapGroup':1,'__LYCustomSniperReplacement':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','TextureID':'rbxassetid://80634410259243','Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'MeshId':'rbxassetid://132995629661821','rel':[-0.0005,0.032,-0.9819,0,0,-1,0,1,0,1,0,0],'Transparency':0,'sc':0.375,'scz':true,'Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'CanQuery':false},'c':'MeshPart','n':'__LYCustomSniperReplacement'}},{'parent':'Body#1','node':{'a':{'WrapGroup':1,'__LYCustomSniperReplacement':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','TextureID':'rbxassetid://136789986141252','Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'MeshId':'rbxassetid://103988563532751','rel':[-0.0067,0.657,-0.7632,0,0,-1,0,1,0,1,0,0],'Transparency':0,'sc':0.375,'scz':true,'Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'CanQuery':false},'c':'MeshPart','n':'__LYCustomSniperScope'}}]}]=] -- crc 505726441 len 5214
-MD3.samsamhubSkinData["Subspace Tripmine (Custom Skin)"] = [=[{'src':'Subspace Tripmine','il':{'Image':'rbxassetid://98372867049331','ImageHighResolution':'rbxassetid://75601061529918','EliminationFeedImageScale':1.25,'EliminationFeedImage':'rbxassetid://132898234292756','Animations':{'Sprint':'subspacetripmine_sprint','Idle':'subspacetripmine_idle','Equip':'subspacetripmine_equip','Inspect':'subspacetripmine_inspect','Use':'subspacetripmine_use'}},'set':[{'a':{'IgnoreTransparency':true,'__LYCustomTripmineMeshPart':true},'path':'Body#1/MeshPart#1','p':{'sc':1.139,'CanQuery':false,'Color':[0.9725,0.9725,0.9725],'MeshId':'rbxassetid://5555691474','Material':'SmoothPlastic','Massless':true}}],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Subspace Tripmine','Unlocked':true,'DisplayName':'Subspace Tripmine (Custom Skin)','WorldViewModelName':'Subspace Tripmine (Custom Skin)','Image':'rbxassetid://98372867049331','ViewModelName':'Subspace Tripmine (Custom Skin)','ImageHighResolution':'rbxassetid://75601061529918','Locked':false,'ItemName':'Subspace Tripmine','Owned':true,'ImageScale':3},'del':['Star#1/MeshPart#1'],'add':[{'parent':'Body#1','node':{'a':{'WrapGroup':1,'__LYCustomTripmineMeshPart':true,'__LYCustomTripmineExtraMesh':true,'IgnoreTransparency':true},'p':{'Reflectance':0,'CanCollide':false,'Color':[0.9725,0.9725,0.9725],'Massless':true,'CanTouch':false,'rel':[0.0168,-0.0007,-0.0101,0,0,-1,0,1,0,1,0,0],'Transparency':0,'ref':'Body#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'SmoothPlastic','CastShadow':true,'Size':[4.7681,4.8981,4.7681]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[1.15,1.15,1.15],'MeshId':'rbxassetid://5555691356','TextureId':'','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'},{'p':{'p0':'Body#1/MeshPart#1','p1':'Body#1/__LYCustomTripmineMeshExtra2#1'},'c':'WeldConstraint','n':'__LYCustomTripmineMeshExtraWeld'}],'n':'__LYCustomTripmineMeshExtra2'}}]}]=] -- crc 139361687 len 1903
+MD3.samsamhubSkinData["Sova"] = [=[{'src':'Frostbite Bow','il':{'Animations':{'Sprint':'bow_sprint','Charge':'bow_charge','ChargeRelease':'bow_frostbitebow_charge_release','Reload':'bow_reload','Shoot1':'bow_frostbitebow_shoot1','Equip':'bow_frostbitebow_equip','Inspect':'bow_inspect','ChargeLoop':'bow_charge_loop','Idle':'bow_idle'},'Image':'rbxassetid://95113702895543','ImageHighResolution':'rbxassetid://95113702895543'},'set':[{'a':{'__SHBowHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'path':'Body#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'__SHBowHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'path':'Body#1/MeshPart#2','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'__SHBowHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'path':'Arrow#1/Stick#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'__SHBowHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'path':'Arrow#1/Tip#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}}],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Frostbite Bow','Unlocked':true,'DisplayName':'Sova','WorldViewModelName':'Frostbite Bow','Image':'rbxassetid://95113702895543','ViewModelName':'Sova','ImageHighResolution':'rbxassetid://95113702895543','Locked':false,'ItemName':'Bow','Owned':true,'ImageScale':3},'del':[],'add':[{'parent':'Body#1','node':{'a':{'WrapGroup':1,'IgnoreTransparency':true,'__SHBowReplacementMeshPart':true,'__SHCustomBowMesh':true},'p':{'Reflectance':0,'CanCollide':false,'Color':[0.6392,0.6353,0.6471],'Massless':true,'CanTouch':false,'rel':[-0.0002,-0.0002,0.0817,0.0001,-0.0001,1,0.0001,-1,-0.0001,1,0.0001,-0.0001],'Transparency':0,'ref':'Body#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'Plastic','CastShadow':true,'Size':[1,1,1]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[0.25,0.25,0.25],'MeshId':'rbxassetid://80147707463344','TextureId':'rbxassetid://87690225474067','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'}],'n':'__SHCustomBowBody'}},{'parent':'Arrow#1','node':{'a':{'WrapGroup':1,'IgnoreTransparency':true,'__SHBowReplacementMeshPart':true,'__SHCustomBowMesh':true},'p':{'Reflectance':0,'CanCollide':false,'Color':[0.6392,0.6353,0.6471],'Massless':true,'CanTouch':false,'rel':[0.0004,-0.0148,-0.0005,0,1,0,1,0,0,0,0,-1],'Transparency':0,'ref':'Arrow#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'Plastic','CastShadow':true,'Size':[1,1,1]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[0.25,0.25,0.25],'MeshId':'rbxassetid://97839236861642','TextureId':'rbxassetid://82458179247269','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'}],'n':'__SHCustomBowArrow'}}]}]=] -- crc 3312837342 len 3058
+MD3.samsamhubSkinData["Jett"] = [=[{'src':'Keynais','il':{'Animations':{'Sprint':'daggers_keynais_sprint','Idle':'daggers_keynais_idle','FinalShoot':'daggers_keynais_shoot2','EmptyInspect':'fists_inspect','Shoot1':'daggers_keynais_shoot1','Reload':'daggers_keynais_reload','Equip':'daggers_keynais_equip','Inspect':'daggers_keynais_inspect','EmptyEquip':'fists_equip','EmptyIdle':'fists_idle'},'Image':'','ImageHighResolution':''},'set':[],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Keynais','Unlocked':true,'DisplayName':'Jett','WorldViewModelName':'Keynais','Image':'','ViewModelName':'Jett','ImageHighResolution':'','Locked':false,'ItemName':'Daggers','Owned':true,'ImageScale':3},'del':['RightBody#1/MeshPart#1','LeftBody#1/MeshPart#1'],'add':[{'parent':'RightBody#1','node':{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHDaggerHiddenAnchor':true,'WrapGroup':1},'p':{'ref':'RightBody#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[1,0.7294,0.0392],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[0.0004,-0.0004,0.0004,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'rbxassetid://94772705561955','Anchored':true,'Material':'Glass','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','k':[{'a':{'EmitDelay':0,'EmitCount':1,'WrapGroup':3},'p':{'Color':[[0,[1,0.7686,0.4]],[1,[1,0.7686,0.4]]],'Drag':0,'ZOffset':0.1,'TimeScale':0.5,'LightInfluence':0,'Lifetime':[0.1,0.2],'Speed':[0.0008,0.0008],'Texture':'rbxassetid://14035694679','Enabled':true,'Acceleration':[0,0,0],'RotSpeed':[0,0],'LockedToPart':true,'Rate':12,'Rotation':[0,0],'Transparency':[[0,0,0],[1,0,0]],'Squash':[[0,0,0],[1,0,0]],'Orientation':'FacingCamera','LightEmission':1,'EmissionDirection':'Top','Size':[[0,0,0],[0.5,0.1,0.075],[1,0,0]],'SpreadAngle':[-360,360]},'c':'ParticleEmitter','n':'sparkle'},{'k':[{'a':{'WrapGroup':3},'p':{'Enabled':true,'FaceCamera':false,'Color':[[0,[1,0.7686,0.4]],[1,[1,0.7686,0.4]]],'a1':'RightBody#1/__SHDaggerAnchor_MeshPart#1/TrailA0#1','WidthScale':[[0,1,0],[1,1,0]],'a0':'RightBody#1/__SHDaggerAnchor_MeshPart#1/TrailA1#1','LightInfluence':0,'Transparency':[[0,0,0],[1,0,0]],'TextureLength':0.9,'Lifetime':0.075,'LightEmission':1,'MinLength':0,'TextureMode':'Stretch','Texture':'rbxassetid://15061023055'},'c':'Trail','n':'Trail'}],'p':{'Visible':false,'CFrame':[0.0857,0.484,0.0017,1,0,0,0,1,0,0,0,1]},'c':'Attachment','n':'TrailA0'},{'p':{'Visible':false,'CFrame':[0,0.6675,0,1,0,0,0,1,0,0,0,1]},'c':'Attachment','n':'TrailA1'},{'k':[{'a':{'WrapGroup':3},'p':{'Enabled':true,'FaceCamera':false,'Color':[[0,[1,0.7686,0.4]],[1,[1,0.7686,0.4]]],'a1':'RightBody#1/__SHDaggerAnchor_MeshPart#1/TrailA2#1','WidthScale':[[0,1,0],[1,1,0]],'a0':'RightBody#1/__SHDaggerAnchor_MeshPart#1/TrailA0#1','LightInfluence':0,'Transparency':[[0,0,0],[1,0,0]],'TextureLength':0.9,'Lifetime':0.075,'LightEmission':1,'MinLength':0,'TextureMode':'Stretch','Texture':'rbxassetid://15061023055'},'c':'Trail','n':'Trail'}],'p':{'Visible':false,'CFrame':[-0.086,0.484,0.002,1,0,0,0,1,0,0,0,1]},'c':'Attachment','n':'TrailA2'}],'n':'__SHDaggerAnchor_MeshPart'}},{'parent':'RightBody#1','node':{'a':{'WrapGroup':1,'__SHDaggerReplacementMeshPart':true,'IgnoreTransparency':true,'__SHCustomDaggerMesh':true},'p':{'Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'rel':[0.0004,-0.0004,0.0004,0,0,-1,-1,0,0,0,1,0],'Transparency':0,'ref':'RightBody#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'Glass','CastShadow':false,'Size':[1,1,1]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[0.03,0.03,0.03],'MeshId':'rbxassetid://128075492497238','TextureId':'rbxassetid://79246900644201','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'},{'p':{'p0':'RightBody#1/__SHDaggerAnchor_MeshPart#1','p1':'RightBody#1/MeshPart#1'},'c':'WeldConstraint','n':'__SHDaggerReplacementWeld'}],'n':'MeshPart'}},{'parent':'LeftBody#1','node':{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHDaggerHiddenAnchor':true,'WrapGroup':1},'p':{'ref':'LeftBody#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[1,0.7294,0.0392],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[0.0004,-0.0001,0.0004,-1,0,-0.0001,0,1,0,0.0001,0,-1],'Transparency':1,'TextureID':'','MeshId':'rbxassetid://94772705561955','Anchored':true,'Material':'Glass','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','k':[{'a':{'EmitDelay':0,'EmitCount':1,'WrapGroup':3},'p':{'Color':[[0,[1,0.7686,0.4]],[1,[1,0.7686,0.4]]],'Drag':0,'ZOffset':0.1,'TimeScale':0.5,'LightInfluence':0,'Lifetime':[0.1,0.2],'Speed':[0.0008,0.0008],'Texture':'rbxassetid://14035694679','Enabled':true,'Acceleration':[0,0,0],'RotSpeed':[0,0],'LockedToPart':true,'Rate':12,'Rotation':[0,0],'Transparency':[[0,0,0],[1,0,0]],'Squash':[[0,0,0],[1,0,0]],'Orientation':'FacingCamera','LightEmission':1,'EmissionDirection':'Top','Size':[[0,0,0],[0.5,0.1,0.075],[1,0,0]],'SpreadAngle':[-360,360]},'c':'ParticleEmitter','n':'sparkle'},{'k':[{'a':{'WrapGroup':3},'p':{'Enabled':true,'FaceCamera':false,'Color':[[0,[1,0.7686,0.4]],[1,[1,0.7686,0.4]]],'a1':'LeftBody#1/__SHDaggerAnchor_MeshPart#1/TrailA0#1','WidthScale':[[0,1,0],[1,1,0]],'a0':'LeftBody#1/__SHDaggerAnchor_MeshPart#1/TrailA1#1','LightInfluence':0,'Transparency':[[0,0,0],[1,0,0]],'TextureLength':0.9,'Lifetime':0.075,'LightEmission':1,'MinLength':0,'TextureMode':'Stretch','Texture':'rbxassetid://15061023055'},'c':'Trail','n':'Trail'}],'p':{'Visible':false,'CFrame':[0.0857,0.484,0.0017,1,0,0,0,1,0,0,0,1]},'c':'Attachment','n':'TrailA0'},{'p':{'Visible':false,'CFrame':[0,0.6675,0,1,0,0,0,1,0,0,0,1]},'c':'Attachment','n':'TrailA1'},{'k':[{'a':{'WrapGroup':3},'p':{'Enabled':true,'FaceCamera':false,'Color':[[0,[1,0.7686,0.4]],[1,[1,0.7686,0.4]]],'a1':'LeftBody#1/__SHDaggerAnchor_MeshPart#1/TrailA2#1','WidthScale':[[0,1,0],[1,1,0]],'a0':'LeftBody#1/__SHDaggerAnchor_MeshPart#1/TrailA0#1','LightInfluence':0,'Transparency':[[0,0,0],[1,0,0]],'TextureLength':0.9,'Lifetime':0.075,'LightEmission':1,'MinLength':0,'TextureMode':'Stretch','Texture':'rbxassetid://15061023055'},'c':'Trail','n':'Trail'}],'p':{'Visible':false,'CFrame':[-0.086,0.484,0.002,1,0,0,0,1,0,0,0,1]},'c':'Attachment','n':'TrailA2'}],'n':'__SHDaggerAnchor_MeshPart'}},{'parent':'LeftBody#1','node':{'a':{'WrapGroup':1,'__SHDaggerReplacementMeshPart':true,'IgnoreTransparency':true,'__SHCustomDaggerMesh':true},'p':{'Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'rel':[0.0004,-0.0001,0.0004,0,0.0001,-1,-1,0,0,0,1,0.0001],'Transparency':0,'ref':'LeftBody#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'Glass','CastShadow':false,'Size':[1,1,1]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[0.03,0.03,0.03],'MeshId':'rbxassetid://128075492497238','TextureId':'rbxassetid://79246900644201','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'},{'p':{'p0':'LeftBody#1/__SHDaggerAnchor_MeshPart#1','p1':'LeftBody#1/MeshPart#1'},'c':'WeldConstraint','n':'__SHDaggerReplacementWeld'}],'n':'MeshPart'}}]}]=] -- crc 2745319711 len 7032
+MD3.samsamhubSkinData["Arcane"] = [=[{'src':'Sheriff','il':{'Animations':{'Sprint':'revolver_sheriff_sprint','QuickShot':'revolver_sheriff_quickshot','Idle':'revolver_sheriff_idle','Shoot1':'revolver_sheriff_shoot1','Equip':'revolver_sheriff_equip','Inspect':'revolver_sheriff_inspect','EmptyReload':'revolver_sheriff_reload_empty','Reload':'revolver_sheriff_reload'},'Image':'rbxassetid://86963409317171','ImageHighResolution':'rbxassetid://86963409317171'},'set':[{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'Front#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'Front#1/MeshPart#2','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'ReloadBullets#1/3#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'ReloadBullets#1/4#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'ReloadBullets#1/5#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'ReloadBullets#1/6#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'ReloadBullets#1/1#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'ReloadBullets#1/2#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'ReloadBulletsHolder#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'Bullets#1/3#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'Bullets#1/4#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'Bullets#1/5#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'Bullets#1/6#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'Bullets#1/1#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'Bullets#1/2#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'Chamber#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'Hammer#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'Body#1/_charm_attachment_model#1/Extra#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'Body#1/_charm_attachment_model#1/Extra#1/MeshPart#2','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'Body#1/_charm_attachment_model#1/Extra#1/MeshPart#3','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'Body#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'Body#1/MeshPart#2','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}}],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Sheriff','Unlocked':true,'DisplayName':'Arcane','WorldViewModelName':'Sheriff','Image':'rbxassetid://86963409317171','ViewModelName':'Arcane','ImageHighResolution':'rbxassetid://86963409317171','Locked':false,'ItemName':'Revolver','Owned':true,'ImageScale':3},'del':[],'add':[{'parent':'Front#1','node':{'a':{'__SHCustomRevolverMesh':true,'__SHRevolverReplacementMeshPart':true,'IgnoreTransparency':true,'WrapGroup':1},'p':{'Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'rel':[-0.078,-0.2196,0.0001,0,0,-1,0,1,0,1,0,0],'Transparency':0,'ref':'Front#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[1,1,1]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[3.24,3.24,3.24],'MeshId':'rbxassetid://97846055360626','TextureId':'rbxassetid://134888509020116','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'}],'n':'__SHCustomRevolverReplacement'}}]}]=] -- crc 1436760324 len 6864
+MD3.samsamhubSkinData["RPG Raze"] = [=[{'src':'Nuke Launcher','il':{'Animations':{'Sprint':'rpg_sprint','Idle':'rpg_idle','Shoot1':'rpg_shoot1','Equip':'rpg_equip','Inspect':'rpg_inspect','RareInspect':'rpg_inspect_rare','Reload':'rpg_reload'},'Image':'rbxassetid://98661318587721','ImageHighResolution':'rbxassetid://98661318587721'},'set':[{'a':{'IgnoreTransparency':true,'WrapGroup':0,'IgnoreObject':true,'__SHRpgHiddenPart':true},'path':'Rocket#1/Neck#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'WrapGroup':0,'IgnoreObject':true,'__SHRpgHiddenPart':true},'path':'Rocket#1/Head#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'__SHCustomRpgMesh':true,'__SHRpgReplacementAdjusted':true,'IgnoreTransparency':true},'path':'Body#1/MeshPart#1','p':{'rel':[-0.0002,0.3009,0.2837,1,0,0,0,1,0,0,0,1],'sc':0.5,'CanQuery':false,'TextureID':'rbxassetid://133257377819985','MeshId':'rbxassetid://81554047161707','CanTouch':false,'Massless':true}},{'a':{'__SHCustomRpgMesh':true,'__SHRpgReplacementAdjusted':true,'IgnoreTransparency':true},'path':'Body#1/MeshPart#2','p':{'rel':[-0.0002,0.5319,0.905,1,0,0,0,1,0,0,0,1],'sc':0.5,'CanQuery':false,'TextureID':'rbxassetid://133257377819985','MeshId':'rbxassetid://81554047161707','CanTouch':false,'Massless':true}},{'a':{'IgnoreTransparency':true,'WrapGroup':0,'IgnoreObject':true,'__SHRpgHiddenPart':true},'path':'Juggle1#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'WrapGroup':0,'IgnoreObject':true,'__SHRpgHiddenPart':true},'path':'Juggle1#1/MeshPart#2','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'WrapGroup':0,'IgnoreObject':true,'__SHRpgHiddenPart':true},'path':'Juggle2#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'WrapGroup':0,'IgnoreObject':true,'__SHRpgHiddenPart':true},'path':'Juggle2#1/MeshPart#2','p':{'Transparency':1,'CanQuery':false,'MeshId':'','CastShadow':false,'Massless':true,'CanTouch':false,'Size':[0.001,0.001,0.001]}}],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Nuke Launcher','Unlocked':true,'DisplayName':'Raze','WorldViewModelName':'RPG Raze','Image':'rbxassetid://98661318587721','ViewModelName':'RPG Raze','ImageHighResolution':'rbxassetid://98661318587721','Locked':false,'ItemName':'RPG','Owned':true,'ImageScale':3},'del':[],'add':[]}]=] -- crc 762217857 len 2793
+MD3.samsamhubSkinData["Oni Shotgun"] = [=[{'src':'Shotgun','il':{'Image':'rbxassetid://123737682294040','ImageHighResolution':'rbxassetid://123737682294040','EliminationFeedImageScale':2.75,'EliminationFeedImage':'rbxassetid://102792045452343','Animations':{'Sprint':'shotgun_sprint','RareInspect':'shotgun_inspect_rare','ReloadFinish':'shotgun_reload_finish','EmptyReloadStart':'shotgun_reload_empty_start','ReloadStart':'shotgun_reload_start','EmptyReloadSegment':'shotgun_reload_segment','Shoot1':'shotgun_shoot1','EmptyReloadFinish':'shotgun_reload_empty_finish2','Equip':'shotgun_equip','Inspect':'shotgun_inspect','ReloadSegment':'shotgun_reload_segment','Idle':'shotgun_idle'}},'set':[{'path':'Shell#1/MeshPart#1','p':{'Color':[0.2392,0.3176,0.5137]}},{'path':'Shell#1/MeshPart#2','p':{'Color':[0.7529,0.7529,0.7529],'Material':'Metal'}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'Body#1/_charm_attachment_model#1/Extra#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'Body#1/_charm_attachment_model#1/Extra#1/MeshPart#2','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'Body#1/_charm_attachment_model#1/Extra#1/MeshPart#3','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'Body#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'Body#1/MeshPart#2','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'Body#1/MeshPart#3','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'Body#1/MeshPart#4','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'Body#1/MeshPart#5','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'IgnoreTransparency':true,'IgnoreObject':true,'__SHRevolverHiddenAnchor':true},'path':'Pump#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'path':'ReloadShell#1/MeshPart#1','p':{'Color':[0.2392,0.3176,0.5137]}},{'path':'ReloadShell#1/MeshPart#2','p':{'Color':[0.7529,0.7529,0.7529],'Material':'Metal'}}],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Shotgun','Unlocked':true,'DisplayName':'Oni Shotgun','WorldViewModelName':'Shotgun','Image':'rbxassetid://123737682294040','ViewModelName':'Oni Shotgun','ImageHighResolution':'rbxassetid://123737682294040','Locked':false,'ItemName':'Shotgun','Owned':true,'ImageScale':3},'del':[],'add':[{'parent':'Body#1','node':{'a':{'__SHCustomRevolverMesh':true,'__SHRevolverReplacementMeshPart':true,'IgnoreTransparency':true,'WrapGroup':2},'p':{'Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'rel':[0.0581,-0.1151,-0.9069,0,0,-1,0,1,0,1,0,0],'Transparency':0,'ref':'Body#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[1,1,1]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[6.83,6.83,6.83],'MeshId':'rbxassetid://125182504680730','TextureId':'rbxassetid://72452350200444','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'}],'n':'__SHCustomRevolverReplacement'}}]}]=] -- crc 3049408271 len 4146
+MD3.samsamhubSkinData["Camera"] = [=[{'src':'Jump Pad','il':{'Image':'','ImageHighResolution':'','EliminationFeedImageScale':1.5,'EliminationFeedImage':'rbxassetid://113965546523164','Animations':{'Sprint':'jumppad_sprint','Idle':'jumppad_idle','Equip':'jumppad_equip','Inspect':'jumppad_inspect','Use':'jumppad_use'}},'set':[],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Jump Pad','Unlocked':true,'DisplayName':'Camera','WorldViewModelName':'Camera','Image':'','ViewModelName':'Camera','ImageHighResolution':'','Locked':false,'ItemName':'Jump Pad','Owned':true,'ImageScale':3},'del':['MedkitBottom#1/MeshPart#1','MedkitBottom#1/MeshPart#2','MedkitBottom#1/MeshPart#3'],'add':[{'parent':'MedkitBottom#1','node':{'a':{'WrapGroup':2,'__SHSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'MedkitBottom#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.4588,0.4667,0.498],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0005,-0.0051,-0.0008,0,0,-1,0,1,0,1,0,0],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__SHSatchelAnchor_MeshPart'}},{'parent':'MedkitBottom#1','node':{'a':{'WrapGroup':3,'__SHSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'MedkitBottom#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.3294,0.5412,0.7059],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0005,-0.0139,-0.0008,0,0,-1,0,1,0,1,0,0],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'Neon','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__SHSatchelAnchor_MeshPart'}},{'parent':'MedkitBottom#1','node':{'a':{'WrapGroup':1,'__SHSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'MedkitBottom#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.5255,0.5333,0.5686],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0005,-0.0164,-0.0008,0,0,-1,0,1,0,1,0,0],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__SHSatchelAnchor_MeshPart'}},{'parent':'MedkitBottom#1','node':{'a':{'__SHSatchelReplacementMeshPart':true,'__SHCustomSatchelMesh':true,'IgnoreTransparency':true,'WrapGroup':2},'p':{'Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'rel':[-0.0005,-0.0118,-0.0008,0,0,-1,-1,0,0,0,1,0],'Transparency':0,'ref':'MedkitBottom#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[1,1,1]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[0.5,0.5,0.5],'MeshId':'rbxassetid://112849634500139','TextureId':'rbxassetid://126465878813440','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'},{'p':{'p0':'MedkitBottom#1/__SHSatchelAnchor_MeshPart#1','p1':'MedkitBottom#1/__SHCustomSatchelReplacement#1'},'c':'WeldConstraint','n':'__SHSatchelReplacementWeld'}],'n':'__SHCustomSatchelReplacement'}}]}]=] -- crc 1140852639 len 3073
+MD3.samsamhubSkinData["Diamond Sword"] = [=[{'src':'Machete','il':{'Animations':{'Sprint':'knife_sprint','RareInspect':'knife_inspect_rare','Idle':'knife_idle','HeavyAttack1':'knife_heavyattack1','Equip':'knife_equip','Inspect':'knife_inspect','Attack1':'knife_attack1','Attack2':'knife_attack2'},'Image':'rbxassetid://108830479771369','ImageHighResolution':'rbxassetid://108830479771369'},'set':[],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Machete','Unlocked':true,'DisplayName':'Diamond Sword','WorldViewModelName':'Machete','Image':'rbxassetid://108830479771369','ViewModelName':'Diamond Sword','ImageHighResolution':'rbxassetid://108830479771369','Locked':false,'ItemName':'Knife','Owned':true,'ImageScale':3},'del':['Body#1/MeshPart#1','Body#1/MeshPart#2','Body#1/MeshPart#3'],'add':[{'parent':'Body#1','node':{'a':{'WrapGroup':2,'__SHSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.1216,0.1216,0.1216],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0002,-0.0439,-0.0059,0,0,-1,0,1,0,1,0,0],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__SHSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':1,'__SHSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.6471,0.6471,0.6471],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0002,1.1538,0.0234,0,0,-1,0,1,0,1,0,0],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'Metal','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__SHSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':1,'__SHSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.298,0.3059,0.3451],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0002,-0.0347,0.0293,0,0,-1,0,1,0,1,0,0],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__SHSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'__SHSatchelReplacementMeshPart':true,'__SHCustomSatchelMesh':true,'IgnoreTransparency':true,'WrapGroup':2},'p':{'Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'rel':[0.0168,0.5325,0.0737,-0.8389,0.1677,0.5178,0.5136,-0.0715,0.8551,0.1805,0.9832,-0.0262],'Transparency':0,'ref':'Body#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[1,1,1]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[0.031,0.031,0.031],'MeshId':'rbxassetid://77165343516444','TextureId':'rbxassetid://85294803794565','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'},{'p':{'p0':'Body#1/__SHSatchelAnchor_MeshPart#1','p1':'Body#1/__SHCustomSatchelReplacement#1'},'c':'WeldConstraint','n':'__SHSatchelReplacementWeld'}],'n':'__SHCustomSatchelReplacement'}}]}]=] -- crc 3518085815 len 3145
+MD3.samsamhubSkinData["Raze Grenade"] = [=[{'src':'Glorious Grenade','il':{'Animations':{'Sprint':'grenade_sprint','Idle':'grenade_idle','LobFinish':'grenade_lob_finish','ThrowStart':'grenade_throw_start_pinpull','LobStart':'grenade_lob_start_pinpull','ThrowFinish':'grenade_throw_finish','Equip':'grenade_equip','Inspect':'grenade_inspect','LobIdle':'grenade_lob_idle','ThrowIdle':'grenade_throw_idle'},'Image':'rbxassetid://133631375454811','ImageHighResolution':'rbxassetid://133631375454811'},'set':[],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Glorious Grenade','Unlocked':true,'DisplayName':'Raze','WorldViewModelName':'Glorious Grenade','Image':'rbxassetid://133631375454811','ViewModelName':'Raze Grenade','ImageHighResolution':'rbxassetid://133631375454811','Locked':false,'ItemName':'Grenade','Owned':true,'ImageScale':3},'del':['Body#1/MeshPart#1','Body#1/MeshPart#2','Body#1/MeshPart#3','Body#1/MeshPart#4'],'add':[{'parent':'Body#1','node':{'a':{'WrapGroup':2,'__SHSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[1,0.6902,0.1922],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0913,0.2725,0.0001,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','k':[{'p':{'Visible':false,'CFrame':[0.0073,0.0571,-0.239,0,-1,0,-1,0,0,0,0,-1]},'c':'Attachment','n':'_charm_pivot_attachment'}],'n':'__SHSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':3,'__SHSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.702,0.6588,0.5294],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0037,-0.2258,-0.0007,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'Neon','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__SHSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':2,'__SHSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[1,0.7804,0.2275],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0759,0.1152,0.0001,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__SHSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':1,'__SHSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.6118,0.3373,1],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0007,0.0974,-0.0007,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__SHSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'__SHSatchelReplacementMeshPart':true,'__SHCustomSatchelMesh':true,'IgnoreTransparency':true,'WrapGroup':2},'p':{'Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'rel':[-0.0427,0.0647,-0.0004,-1,0,0,0,1,0,0,0,-1],'Transparency':0,'ref':'Body#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[1,1,1]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[0.8,0.8,0.8],'MeshId':'rbxassetid://80612596590820','TextureId':'rbxassetid://123233413518598','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'},{'p':{'p0':'Body#1/__SHSatchelAnchor_MeshPart#1','p1':'Body#1/__SHCustomSatchelReplacement#1'},'c':'WeldConstraint','n':'__SHSatchelReplacementWeld'}],'n':'__SHCustomSatchelReplacement'}}]}]=] -- crc 3503843197 len 3855
+MD3.samsamhubSkinData["Raze"] = [=[{'src':'Satchel','il':{'Image':'','ImageHighResolution':'','EliminationFeedImageScale':1.5,'EliminationFeedImage':'rbxassetid://99042007892528','Animations':{'Sprint':'grenade_sprint','Idle':'grenade_idle','LobFinish':'grenade_lob_finish','Detonate':'satchel_detonate','ThrowStart':'grenade_throw_start','LobIdle':'grenade_lob_idle','LobStart':'grenade_lob_start','ThrowIdle':'grenade_throw_idle','Inspect':'grenade_inspect','ThrowFinish':'grenade_throw_finish','Equip':'satchel_equip'}},'set':[],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Satchel','Unlocked':true,'DisplayName':'Raze','WorldViewModelName':'Raze','Image':'','ViewModelName':'Raze','ImageHighResolution':'','Locked':false,'ItemName':'Satchel','Owned':true,'ImageScale':3},'del':['Body#1/Beep#1','Body#1/MeshPart#1','Body#1/MeshPart#2','Body#1/MeshPart#3','Body#1/MeshPart#4'],'add':[{'parent':'Body#1','node':{'a':{'WrapGroup':1,'__SHSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[1,0.6902,0],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[0.1516,0.1769,0.2465,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__SHSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':1,'__SHSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.1373,0.2275,0.1412],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.001,0.1846,0.0063,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__SHSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':1,'__SHSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.7686,0.1569,0.1098],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.2339,0.2118,0.1306,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__SHSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':2,'__SHSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.1294,0.1294,0.1294],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0155,0.1846,0.0775,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__SHSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':3,'__SHSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.7686,0.2784,0.2784],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0334,0.046,0.2893,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'Neon','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__SHSatchelAnchor_Beep'}},{'parent':'Body#1','node':{'a':{'__SHSatchelReplacementMeshPart':true,'__SHCustomSatchelMesh':true,'IgnoreTransparency':true,'WrapGroup':1},'p':{'Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'rel':[-0.0264,0.1608,0.15,0,0,1,0,1,0,-1,0,0],'Transparency':0,'ref':'Body#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[1,1,1]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[0.5,0.5,0.5],'MeshId':'rbxassetid://129982008330139','TextureId':'rbxassetid://121713947189258','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'},{'p':{'p0':'Body#1/__SHSatchelAnchor_MeshPart#1','p1':'Body#1/__SHCustomSatchelReplacement#1'},'c':'WeldConstraint','n':'__SHSatchelReplacementWeld'}],'n':'__SHCustomSatchelReplacement'}}]}]=] -- crc 141077400 len 4187
+MD3.samsamhubSkinData["Spike"] = [=[{'src':'Subspace Tripmine','il':{'Image':'','ImageHighResolution':'','EliminationFeedImageScale':1.25,'EliminationFeedImage':'rbxassetid://132898234292756','Animations':{'Sprint':'subspacetripmine_sprint','Idle':'subspacetripmine_idle','Equip':'subspacetripmine_equip','Inspect':'subspacetripmine_inspect','Use':'subspacetripmine_use'}},'set':[{'a':{'IgnoreTransparency':true,'__SHCustomTripmineMeshPart':true},'path':'Body#1/MeshPart#1','p':{'sc':28.9,'CanQuery':false,'Color':[0.6392,0.6353,0.6471],'MeshId':'rbxassetid://97754746098028','Material':'SmoothPlastic','Massless':true}}],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Subspace Tripmine','Unlocked':true,'DisplayName':'Spike','WorldViewModelName':'Spike','Image':'','ViewModelName':'Spike','ImageHighResolution':'','Locked':false,'ItemName':'Subspace Tripmine','Owned':true,'ImageScale':3},'del':['Star#1/MeshPart#1'],'add':[]}]=] -- crc 527065495 len 910
+MD3.samsamhubSkinData["Reaver"] = [=[{'src':'Pencil','il':{'Animations':{'Sprint':'knife_pencil_sprint','HeavyAttack1':'knife_pencil_heavyattack1','Idle':'knife_pencil_idle','HeavyAttackAnimationHit':'knife_pencil_heavyattack_hit','Equip':'knife_pencil_equip','Inspect':'knife_pencil_inspect','Attack1':'knife_pencil_attack1','Attack2':'knife_pencil_attack2'},'Image':'rbxassetid://128587109500034','ImageHighResolution':'rbxassetid://128587109500034'},'set':[],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Pencil','Unlocked':true,'DisplayName':'Reaver','WorldViewModelName':'Pencil','Image':'rbxassetid://128587109500034','ViewModelName':'Reaver','ImageHighResolution':'rbxassetid://128587109500034','Locked':false,'ItemName':'Knife','Owned':true,'ImageScale':3},'del':['Body#1/MeshPart#1','Body#1/MeshPart#2','Body#1/MeshPart#3','Body#1/MeshPart#4','Body#1/MeshPart#5'],'add':[{'parent':'Body#1','node':{'a':{'WrapGroup':3,'__SHSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.1333,0.1333,0.1333],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0127,1.1106,-0.0004,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__SHSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':2,'__SHSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.6902,0.4784,0.3529],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0122,1.0237,-0.0016,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__SHSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':1,'__SHSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[1,0.7608,0.2078],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0122,0.3401,-0.0016,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__SHSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':3,'__SHSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[1,0.4039,0.5333],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0122,-0.4619,-0.0016,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__SHSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'WrapGroup':2,'__SHSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0,'CanCollide':false,'Color':[0.2784,0.2667,0.2745],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[-0.0122,-0.3627,-0.0016,-1,0,0,0,1,0,0,0,-1],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','n':'__SHSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'__SHSatchelReplacementMeshPart':true,'__SHCustomSatchelMesh':true,'IgnoreTransparency':true,'WrapGroup':3},'p':{'Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'rel':[-0.0127,0.83,-0.0013,0,0,-1,0,1,0,1,0,0],'Transparency':0,'ref':'Body#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'Size':[1,1,1]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[0.3,0.3,0.3],'MeshId':'rbxassetid://76054449109492','TextureId':'rbxassetid://117578984602503','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'},{'p':{'p0':'Body#1/__SHSatchelAnchor_MeshPart#1','p1':'Body#1/__SHCustomSatchelReplacement#1'},'c':'WeldConstraint','n':'__SHSatchelReplacementWeld'}],'n':'__SHCustomSatchelReplacement'}}]}]=] -- crc 1138632012 len 4201
+MD3.samsamhubSkinData["Sky"] = [=[{'src':'Shining Star','il':{'Animations':{'Sprint':'grenade_sprint','Idle':'grenade_idle','LobFinish':'grenade_lob_finish','ThrowStart':'flashbang_shiningstar_throw_start','LobStart':'flashbang_shiningstar_lob_start','ThrowFinish':'grenade_throw_finish','Equip':'grenade_equip','Inspect':'grenade_inspect','LobIdle':'grenade_lob_idle','ThrowIdle':'grenade_throw_idle'},'Image':'','ImageHighResolution':''},'set':[],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Shining Star','Unlocked':true,'DisplayName':'Sky','WorldViewModelName':'Shining Star','Image':'','ViewModelName':'Sky','ImageHighResolution':'','Locked':false,'ItemName':'Flashbang','Owned':true,'ImageScale':3},'del':['Body#1/MeshPart#1'],'add':[{'parent':'Body#1','node':{'a':{'WrapGroup':1,'__SHSatchelHiddenAnchor':true,'IgnoreObject':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','Reflectance':0.1,'CanCollide':false,'Color':[1,0.8353,0],'Massless':true,'CanTouch':false,'CanQuery':false,'rel':[0.0004,-0.0001,0.0002,0,0,-1,0,1,0,1,0,0],'Transparency':1,'TextureID':'','MeshId':'','Anchored':true,'Material':'Glass','CastShadow':false,'Size':[0.001,0.001,0.001]},'c':'MeshPart','k':[{'k':[{'a':{'WrapGroup':3},'p':{'Color':[[0,[1,0.8549,0.7725]],[1,[1,0.8549,0.7725]]],'Drag':0,'ZOffset':1,'TimeScale':1,'LightInfluence':0,'Lifetime':[0.5,0.5],'Speed':[0.0023,0.0023],'Texture':'rbxassetid://10002331595','Enabled':true,'Acceleration':[0,0,0],'RotSpeed':[0,0],'LockedToPart':true,'Rate':8,'Rotation':[45,45],'Transparency':[[0,1,0],[0.5,0.9438,0],[1,1,0]],'Squash':[[0,0,0],[1,0,0]],'Orientation':'VelocityPerpendicular','LightEmission':1,'EmissionDirection':'Right','Size':[[0,0.5,0],[1,0.5,0]],'SpreadAngle':[0,0]},'c':'ParticleEmitter','n':'str1'},{'a':{'WrapGroup':3},'p':{'Color':[[0,[1,0.8549,0.7725]],[1,[1,0.8549,0.7725]]],'Drag':0,'ZOffset':1,'TimeScale':1,'LightInfluence':0,'Lifetime':[0.5,0.5],'Speed':[0.0023,0.0023],'Texture':'rbxassetid://10002331595','Enabled':true,'Acceleration':[0,0,0],'RotSpeed':[0,0],'LockedToPart':true,'Rate':8,'Rotation':[0,0],'Transparency':[[0,1,0],[0.5,0.9438,0],[1,1,0]],'Squash':[[0,0,0],[1,0,0]],'Orientation':'VelocityPerpendicular','LightEmission':1,'EmissionDirection':'Right','Size':[[0,0.65,0],[1,0.65,0]],'SpreadAngle':[0,0]},'c':'ParticleEmitter','n':'str1b'},{'a':{'WrapGroup':3},'p':{'Color':[[0,[1,0.8314,0.3255]],[1,[1,0.8314,0.3255]]],'Drag':0,'ZOffset':0.501,'TimeScale':1,'LightInfluence':0,'Lifetime':[0.5,0.5],'Speed':[0.0023,0.0023],'Texture':'rbxassetid://6938954766','Enabled':true,'Acceleration':[0,0,0],'RotSpeed':[0,0],'LockedToPart':true,'Rate':8,'Rotation':[90,90],'Transparency':[[0,1,0],[0.5015,0.975,0],[1,1,0]],'Squash':[[0,0,0],[1,0,0]],'Orientation':'FacingCamera','LightEmission':1,'EmissionDirection':'Top','Size':[[0,1.5,0],[1,1.5,0]],'SpreadAngle':[-360,360]},'c':'ParticleEmitter','n':'ray2'},{'a':{'WrapGroup':3},'p':{'Color':[[0,[1,0.8314,0.3255]],[1,[1,0.8314,0.3255]]],'Drag':0,'ZOffset':0.5,'TimeScale':1,'LightInfluence':0,'Lifetime':[0.5,0.5],'Speed':[0.0011,0.0011],'Texture':'rbxassetid://13816054573','Enabled':true,'Acceleration':[0,0,0],'RotSpeed':[0,0],'LockedToPart':true,'Rate':4,'Rotation':[-360,360],'Transparency':[[0,1,0],[0.5,0.45,0],[1,1,0]],'Squash':[[0,0,0],[1,0,0]],'Orientation':'FacingCamera','LightEmission':1,'EmissionDirection':'Top','Size':[[0,1.75,0],[1,1.75,0]],'SpreadAngle':[-360,360]},'c':'ParticleEmitter','n':'glow'},{'a':{'WrapGroup':3},'p':{'Color':[[0,[1,0.8314,0.3255]],[1,[1,0.8314,0.3255]]],'Drag':8,'ZOffset':0,'TimeScale':1,'LightInfluence':0,'Lifetime':[0,0.5],'Speed':[6,6],'Texture':'rbxassetid://14035694679','Enabled':true,'Acceleration':[0,0,0],'RotSpeed':[0,0],'LockedToPart':true,'Rate':24,'Rotation':[0,0],'Transparency':[[0,0,0],[1,0,0]],'Squash':[[0,0,0],[1,0,0]],'Orientation':'FacingCamera','LightEmission':1,'EmissionDirection':'Top','Size':[[0,0,0],[0.1008,0.3425,0],[1,0,0]],'SpreadAngle':[-360,360]},'c':'ParticleEmitter','n':'hard-circles'},{'a':{'WrapGroup':3},'p':{'Color':[[0,[1,0.8314,0.3255]],[1,[1,0.8314,0.3255]]],'Drag':0,'ZOffset':0.501,'TimeScale':1,'LightInfluence':0,'Lifetime':[0.5,0.5],'Speed':[0.0011,0.0011],'Texture':'rbxassetid://12015608405','Enabled':true,'Acceleration':[0,0,0],'RotSpeed':[0,0],'LockedToPart':true,'Rate':4,'Rotation':[0,0],'Transparency':[[0,1,0],[0.5,0.45,0],[1,1,0]],'Squash':[[0,0,0],[1,0,0]],'Orientation':'FacingCamera','LightEmission':1,'EmissionDirection':'Top','Size':[[0,1.5,0],[1,1.5,0]],'SpreadAngle':[-360,360]},'c':'ParticleEmitter','n':'ray1'}],'p':{'Visible':false,'CFrame':[0,0,0,1,0,0,0,1,0,0,0,1]},'c':'Attachment','n':'Attachment'}],'n':'__SHSatchelAnchor_MeshPart'}},{'parent':'Body#1','node':{'a':{'__SHSatchelReplacementMeshPart':true,'__SHCustomSatchelMesh':true,'IgnoreTransparency':true,'WrapGroup':1},'p':{'Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'rel':[0.0004,-0.0001,0.0002,1,0,0,0,1,0,0,0,1],'Transparency':0,'ref':'Body#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'Glass','CastShadow':false,'Size':[1,1,1]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[0.6,0.6,0.6],'MeshId':'rbxassetid://78577370691269','TextureId':'rbxassetid://130284287910497','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'},{'p':{'p0':'Body#1/__SHSatchelAnchor_MeshPart#1','p1':'Body#1/__SHCustomSatchelReplacement#1'},'c':'WeldConstraint','n':'__SHSatchelReplacementWeld'}],'n':'__SHCustomSatchelReplacement'}}]}]=] -- crc 59949012 len 5485
+MD3.samsamhubSkinData["Chamber"] = [=[{'src':'Keyper','il':{'Animations':{'Sprint':'sniper_sprint','Idle':'sniper_idle','Shoot1':'sniper_keyper_shoot1','Equip':'sniper_keyper_equip','Inspect':'sniper_inspect','EmptyReload':'sniper_reload_empty','Reload':'sniper_reload'},'Image':'rbxassetid://105309540778092','ImageHighResolution':'rbxassetid://105309540778092'},'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Keyper','Unlocked':true,'DisplayName':'Chamber','WorldViewModelName':'Keyper','Image':'rbxassetid://105309540778092','ViewModelName':'Chamber','ImageHighResolution':'rbxassetid://105309540778092','Locked':false,'ItemName':'Sniper','Owned':true,'ImageScale':3},'del':[],'set':[{'path':'Magazine#1/MeshPart#1','a':{'WrapGroup':0,'IgnoreTransparency':true,'__SHCustomSniperHiddenPart':true,'IgnoreObject':true,'__SHHiddenSniperMesh':true},'p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'path':'Magazine#1/MeshPart#2','a':{'WrapGroup':0,'IgnoreTransparency':true,'__SHCustomSniperHiddenPart':true,'IgnoreObject':true,'__SHHiddenSniperMesh':true},'p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'path':'Bullet#1/MeshPart#1','a':{'WrapGroup':0,'IgnoreTransparency':true,'__SHCustomSniperHiddenPart':true,'IgnoreObject':true,'__SHHiddenSniperMesh':true},'p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'path':'Bolt#1/MeshPart#1','a':{'WrapGroup':0,'IgnoreTransparency':true,'__SHCustomSniperHiddenPart':true,'IgnoreObject':true,'__SHHiddenSniperMesh':true},'p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'path':'Body#1/MeshPart#1','a':{'WrapGroup':0,'IgnoreTransparency':true,'__SHCustomSniperHiddenPart':true,'IgnoreObject':true,'__SHHiddenSniperMesh':true},'p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'path':'Body#1/MeshPart#2','a':{'WrapGroup':0,'IgnoreTransparency':true,'__SHCustomSniperHiddenPart':true,'IgnoreObject':true,'__SHHiddenSniperMesh':true},'p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'path':'Body#1/MeshPart#3','a':{'WrapGroup':0,'IgnoreTransparency':true,'__SHCustomSniperHiddenPart':true,'IgnoreObject':true,'__SHHiddenSniperMesh':true},'p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}}],'add':[{'parent':'Body#1','node':{'c':'MeshPart','n':'__SHCustomSniperReplacement','a':{'WrapGroup':1,'__SHCustomSniperReplacement':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','TextureID':'rbxassetid://131686603013672','Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'MeshId':'rbxassetid://98786413608787','rel':[0.0034,0.3039,-0.9406,0,0,-1,0,1,0,1,0,0],'Transparency':0,'sc':0.03,'scz':true,'Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'CanQuery':false}}}]}]=] -- crc 2972873602 len 3106
+MD3.samsamhubSkinData["Operator"] = [=[{'src':'Sniper','il':{'Image':'rbxassetid://133689329349303','ImageHighResolution':'rbxassetid://133689329349303','EliminationFeedImageScale':3.25,'EliminationFeedImage':'rbxassetid://132853334508822','Animations':{'Sprint':'sniper_sprint','Idle':'sniper_idle','Shoot1':'sniper_shoot1','Equip':'sniper_equip','Inspect':'sniper_inspect','EmptyReload':'sniper_reload_empty','Reload':'sniper_reload'}},'set':[{'a':{'WrapGroup':0,'__SHSniperAnchorType':'Magazine','IgnoreTransparency':true,'__SHCustomSniperHiddenPart':true,'IgnoreObject':true,'__SHHiddenSniperMesh':true},'path':'Magazine#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'WrapGroup':0,'__SHSniperAnchorType':'Magazine','IgnoreTransparency':true,'__SHCustomSniperHiddenPart':true,'IgnoreObject':true,'__SHHiddenSniperMesh':true},'path':'Magazine#1/MeshPart#2','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'__SHSniperVisibleOffset':true,'__SHSniperAnchorType':'Bullet'},'path':'Bullet#1/MeshPart#1','p':{'rel':[-0.0004,0,-1.3137,0,0,-1,0,1,0,1,0,0]}},{'a':{'WrapGroup':0,'__SHSniperAnchorType':'Remove','IgnoreTransparency':true,'__SHCustomSniperHiddenPart':true,'IgnoreObject':true,'__SHHiddenSniperMesh':true},'path':'Bolt#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'WrapGroup':0,'__SHSniperAnchorType':'Remove','IgnoreTransparency':true,'__SHCustomSniperHiddenPart':true,'IgnoreObject':true,'__SHHiddenSniperMesh':true},'path':'Bolt#1/MeshPart#2','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'WrapGroup':0,'__SHSniperAnchorType':'Body','IgnoreTransparency':true,'__SHCustomSniperHiddenPart':true,'IgnoreObject':true,'__SHHiddenSniperMesh':true},'path':'Body#1/MeshPart#1','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'WrapGroup':0,'__SHSniperAnchorType':'Body','__SHCustomSniperHiddenPart':true,'IgnoreObject':true,'__SHHiddenSniperMesh':true},'path':'Body#1/MeshPart#2','p':{'Reflectance':0,'Transparency':1,'CanQuery':false,'MeshId':'','Material':'SmoothPlastic','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'WrapGroup':0,'__SHSniperAnchorType':'Body','IgnoreTransparency':true,'__SHCustomSniperHiddenPart':true,'IgnoreObject':true,'__SHHiddenSniperMesh':true},'path':'Body#1/MeshPart#3','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'WrapGroup':0,'__SHSniperAnchorType':'Body','IgnoreTransparency':true,'__SHCustomSniperHiddenPart':true,'IgnoreObject':true,'__SHHiddenSniperMesh':true},'path':'Body#1/MeshPart#4','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}},{'a':{'WrapGroup':0,'__SHSniperAnchorType':'Body','IgnoreTransparency':true,'__SHCustomSniperHiddenPart':true,'IgnoreObject':true,'__SHHiddenSniperMesh':true},'path':'Body#1/MeshPart#5','p':{'Transparency':1,'CanQuery':false,'MeshId':'','Massless':true,'CastShadow':false,'Size':[0.001,0.001,0.001]}}],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Sniper','Unlocked':true,'DisplayName':'Operator','WorldViewModelName':'Sniper','Image':'rbxassetid://133689329349303','ViewModelName':'Operator','ImageHighResolution':'rbxassetid://133689329349303','Locked':false,'ItemName':'Sniper','Owned':true,'ImageScale':3},'del':[],'add':[{'parent':'Magazine#1','node':{'a':{'WrapGroup':1,'__SHCustomSniperReplacement':true,'IgnoreTransparency':true},'p':{'ref':'Magazine#1/Primary#1','TextureID':'rbxassetid://80634410259243','Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'MeshId':'rbxassetid://80074307887476','rel':[-0.063,0.067,0.324,0,0,-1,0,1,0,1,0,0],'Transparency':0,'sc':0.375,'scz':true,'Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'CanQuery':false},'c':'MeshPart','n':'__SHCustomSniperMagazine'}},{'parent':'Body#1','node':{'a':{'WrapGroup':1,'__SHCustomSniperReplacement':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','TextureID':'rbxassetid://80634410259243','Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'MeshId':'rbxassetid://132995629661821','rel':[-0.0005,0.032,-0.9819,0,0,-1,0,1,0,1,0,0],'Transparency':0,'sc':0.375,'scz':true,'Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'CanQuery':false},'c':'MeshPart','n':'__SHCustomSniperReplacement'}},{'parent':'Body#1','node':{'a':{'WrapGroup':1,'__SHCustomSniperReplacement':true,'IgnoreTransparency':true},'p':{'ref':'Body#1/Primary#1','TextureID':'rbxassetid://136789986141252','Reflectance':0,'CanCollide':false,'Color':[1,1,1],'Massless':true,'CanTouch':false,'MeshId':'rbxassetid://103988563532751','rel':[-0.0067,0.657,-0.7632,0,0,-1,0,1,0,1,0,0],'Transparency':0,'sc':0.375,'scz':true,'Anchored':true,'Material':'SmoothPlastic','CastShadow':false,'CanQuery':false},'c':'MeshPart','n':'__SHCustomSniperScope'}}]}]=] -- crc 505726441 len 5214
+MD3.samsamhubSkinData["Subspace Tripmine (Custom Skin)"] = [=[{'src':'Subspace Tripmine','il':{'Image':'rbxassetid://98372867049331','ImageHighResolution':'rbxassetid://75601061529918','EliminationFeedImageScale':1.25,'EliminationFeedImage':'rbxassetid://132898234292756','Animations':{'Sprint':'subspacetripmine_sprint','Idle':'subspacetripmine_idle','Equip':'subspacetripmine_equip','Inspect':'subspacetripmine_inspect','Use':'subspacetripmine_use'}},'set':[{'a':{'IgnoreTransparency':true,'__SHCustomTripmineMeshPart':true},'path':'Body#1/MeshPart#1','p':{'sc':1.139,'CanQuery':false,'Color':[0.9725,0.9725,0.9725],'MeshId':'rbxassetid://5555691474','Material':'SmoothPlastic','Massless':true}}],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Subspace Tripmine','Unlocked':true,'DisplayName':'Subspace Tripmine (Custom Skin)','WorldViewModelName':'Subspace Tripmine (Custom Skin)','Image':'rbxassetid://98372867049331','ViewModelName':'Subspace Tripmine (Custom Skin)','ImageHighResolution':'rbxassetid://75601061529918','Locked':false,'ItemName':'Subspace Tripmine','Owned':true,'ImageScale':3},'del':['Star#1/MeshPart#1'],'add':[{'parent':'Body#1','node':{'a':{'WrapGroup':1,'__SHCustomTripmineMeshPart':true,'__SHCustomTripmineExtraMesh':true,'IgnoreTransparency':true},'p':{'Reflectance':0,'CanCollide':false,'Color':[0.9725,0.9725,0.9725],'Massless':true,'CanTouch':false,'rel':[0.0168,-0.0007,-0.0101,0,0,-1,0,1,0,1,0,0],'Transparency':0,'ref':'Body#1/Primary#1','CanQuery':false,'Anchored':true,'Material':'SmoothPlastic','CastShadow':true,'Size':[4.7681,4.8981,4.7681]},'c':'Part','k':[{'p':{'Offset':[0,0,0],'Scale':[1.15,1.15,1.15],'MeshId':'rbxassetid://5555691356','TextureId':'','VertexColor':[1,1,1],'MeshType':'FileMesh'},'c':'SpecialMesh','n':'Mesh'},{'p':{'p0':'Body#1/MeshPart#1','p1':'Body#1/__SHCustomTripmineMeshExtra2#1'},'c':'WeldConstraint','n':'__SHCustomTripmineMeshExtraWeld'}],'n':'__SHCustomTripmineMeshExtra2'}}]}]=] -- crc 139361687 len 1903
 MD3.samsamhubSkinData["Glass Shard"] = [=[{'src':'Glast Shard','il':{'Image':'rbxassetid://102980815872652','ImageHighResolution':'rbxassetid://136181940429732','EliminationFeedImageScale':2,'EliminationFeedImage':'rbxassetid://89682549635116','Animations':{'Sprint':'knife_karambit_sprint','HeavyAttack1':'knife_karambit_heavyattack1','Idle':'knife_karambit_idle','HeavyAttackAnimationHit':'knife_karambit_heavyattack_hit','Equip':'knife_karambit_equip','Inspect':'knife_karambit_inspect','Attack1':'knife_karambit_attack1','Attack2':'knife_karambit_attack2'}},'set':[],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Glast Shard','Unlocked':true,'DisplayName':'Glass Shard','WorldViewModelName':'Glast Shard','Image':'rbxassetid://102980815872652','ViewModelName':'Glass Shard','ImageHighResolution':'rbxassetid://136181940429732','Locked':false,'ItemName':'Knife','Owned':true,'ImageScale':3},'del':[],'add':[]}]=] -- crc 4077779007 len 890
 MD3.samsamhubSkinData["Grenade (Custom Skin)"] = [=[{'src':'Elixir','il':{'Image':'rbxassetid://123677194704684','ImageHighResolution':'rbxassetid://96734141776078','EliminationFeedImageScale':1,'EliminationFeedImage':'rbxassetid://106686303136827','Animations':{'Sprint':'grenade_sprint','Idle':'grenade_idle','LobFinish':'grenade_lob_finish','ThrowStart':'grenade_throw_start','LobStart':'grenade_lob_start','ThrowFinish':'grenade_throw_finish','Equip':'elixir_equip','Inspect':'grenade_inspect','LobIdle':'grenade_lob_idle','ThrowIdle':'grenade_throw_idle'}},'set':[],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Elixir','Unlocked':true,'DisplayName':'Grenade (Custom Skin)','WorldViewModelName':'Elixir','Image':'rbxassetid://123677194704684','ViewModelName':'Grenade (Custom Skin)','ImageHighResolution':'rbxassetid://96734141776078','Locked':false,'ItemName':'Grenade','Owned':true,'ImageScale':3},'del':[],'add':[]}]=] -- crc 3237829229 len 891
 MD3.samsamhubSkinData["Handgun (Custom Skin)"] = [=[{'src':'Glass Cannon','il':{'Image':'rbxassetid://138882843694218','ImageHighResolution':'rbxassetid://82999887306387','EliminationFeedImageScale':1.5,'EliminationFeedImage':'rbxassetid://109359544961471','Animations':{'Sprint':'handgun_sprint','Shoot1':'handgun_shoot1','Idle':'handgun_idle','FinalShoot':'handgun_shoot_final','Equip':'handgun_equip','Inspect':'handgun_inspect','EmptyReload':'handgun_reload_empty','Reload':'handgun_reload'}},'set':[],'cos':{'Type':'Skin','Rarity':'Contraband','SourceViewModelName':'Glass Cannon','Unlocked':true,'DisplayName':'Handgun (Custom Skin)','WorldViewModelName':'Glass Cannon','Image':'rbxassetid://138882843694218','ViewModelName':'Handgun (Custom Skin)','ImageHighResolution':'rbxassetid://82999887306387','Locked':false,'ItemName':'Handgun','Owned':true,'ImageScale':3},'del':[],'add':[]}]=] -- crc 1140742164 len 838
@@ -3166,7 +3166,7 @@ track(function()
 end)
 
 -- Game hooks ------------------------------------------------------------------
--- The camera / weapon modifiers below patch the same RIVALS modules LY-broken's
+-- The camera / weapon modifiers below patch the same RIVALS modules samsamhub's
 -- ItemModifiers do: PlayerScripts.Controllers.CameraController and the
 -- ClientFighter / ClientViewModel classes. Everything is put back on unload.
 
@@ -3270,7 +3270,7 @@ do
 
 	-- Camera shake ----------------------------------------------------------------
 	-- CameraController:ShakeOnce / :Shake both go through self._camera_shaker.
-	-- Like LY-broken, the "_camera_shaker" constant in those two methods is
+	-- Like samsamhub, the "_camera_shaker" constant in those two methods is
 	-- redirected to a key holding a do-nothing shaker. Executors without
 	-- debug.setconstant get the methods swapped for no-ops instead.
 
@@ -3353,7 +3353,7 @@ do
 
 	-- Camera sway -----------------------------------------------------------------
 	-- ClientFighter:GetCameraSway only sways while CameraController reports first
-	-- person. Like LY-broken, the CameraController that GetCameraSway sees (one of
+	-- person. Like samsamhub, the CameraController that GetCameraSway sees (one of
 	-- its upvalues, or a table held in one) is swapped for a proxy whose
 	-- GetPublicState always says "ThirdPerson"; everything else passes through.
 
@@ -3436,7 +3436,7 @@ do
 	-- Weapon motion ---------------------------------------------------------------
 	-- Each ClientViewModel drives its bob / tilt / landing / recoil offsets from
 	-- the springs below, reading spring.Value (computed in the Spring module's
-	-- __index). Like LY-broken, a raw Value field is put on each spring so it
+	-- __index). Like samsamhub, a raw Value field is put on each spring so it
 	-- always reads as at rest; clearing that field restores the real spring.
 	-- A new viewmodel is made on every equip, so they're caught under the camera.
 
@@ -3545,7 +3545,7 @@ do
 	})
 
 	-- Viewmodel animations --------------------------------------------------------
-	-- Shoot / sprint / equip / reload: like LY-broken, ViewModelAnimator:
+	-- Shoot / sprint / equip / reload: like samsamhub, ViewModelAnimator:
 	-- PlayAnimation(key, ...) is hooked (equip and sprint are played by the
 	-- animator itself, so the ClientViewModel wrapper would miss them). For a
 	-- suppressed key on your own viewmodel the track in _animation_tracks is
@@ -5098,8 +5098,8 @@ local AUTOEXEC_LOADER = [[
 -- queued copies can fire together after a teleport. The first one claims this server.
 local _env = (getgenv and getgenv()) or _G
 local _job = tostring(game.JobId)
-if _job ~= "" and _env.__LYAutoExecJob == _job then return end
-_env.__LYAutoExecJob = _job
+if _job ~= "" and _env.__SHAutoExecJob == _job then return end
+_env.__SHAutoExecJob = _job
 
 -- Waits until the game is really done loading, not just joined: DataModel, character,
 -- the game's own controllers + main UI, the player's data, and no pending asset loads.
@@ -5177,7 +5177,7 @@ if url ~= "" then loadstring(game:HttpGet(url))() end
 local AUTOEXEC_URL = "https://raw.githubusercontent.com/sammmmmm6767/samsamhub/main/samsamhub.lua"
 local AUTOEXEC_LEGACY = "https://lua.lystore.lol/O5BmHqMr1QPdpZXWf2vLEDKSdrclP6f7/loader.luau"
 -- The toggle's real state is the file it feeds (the queued loader reads it after the teleport,
--- so the switch and the file can't drift). Read that file back on boot: an old LY URL parked
+-- so the switch and the file can't drift). Read that file back on boot: an old legacy URL parked
 -- there by an earlier build -- or a GitHub blob/older-version URL, which returns HTML rather
 -- than lua -- is rewritten to this hub's raw copy before anything can queue it. Any other URL
 -- (one you typed yourself) is left alone.
@@ -5215,11 +5215,11 @@ local function syncAutoExecute()
 		-- has already queued once for this teleport: don't stack another copy.
 		local env = getgenv and getgenv() or _G
 		local job = tostring(game.JobId)
-		if job ~= "" and env.__LYAutoExecQueuedFor == job then
+		if job ~= "" and env.__SHAutoExecQueuedFor == job then
 			autoExecute.Queued = true
 		else
 			autoExecute.Queued = pcall(queueOnTeleport, AUTOEXEC_LOADER:format(AUTOEXEC_FILE))
-			if autoExecute.Queued then env.__LYAutoExecQueuedFor = job end
+			if autoExecute.Queued then env.__SHAutoExecQueuedFor = job end
 		end
 	end
 	return true
@@ -5512,7 +5512,7 @@ MatchSection:AddToggle({
 -- saved to / loaded from samsamhub/recordings.
 
 -- Cosmetics -------------------------------------------------------------------
--- Client-side only, following LY-broken's cosmetics unlocker:
+-- Client-side only, following samsamhub's cosmetics unlocker:
 --  * Unlock All wraps PlayerDataController.CurrentData.Data so its
 --    CosmeticInventory field lists every cosmetic; the menus then show them
 --    all as owned.
@@ -5628,7 +5628,7 @@ local function setupCosmetics()
 		local daggers, jumpPad, satchel, flashbang, tripmine = 91885384580845, 79459600453621, 82237471151891, 17160801529, 17160799418
 		local elixir = { 123677194704684, 96734141776078 }
 		local scepter = { 99183402177823, 89220212871603 }
-		MD3.LYExtraSkins = {
+		MD3.SHExtraSkins = {
 			["Araxys"] = { "Assault Rifle", 100630038137131, 100630038137131 },
 			["Blast X"] = { "Assault Rifle", 77451936943002, 77451936943002 },
 			["Champions"] = { "Assault Rifle", 111893221945915, 111893221945915 },
@@ -5667,21 +5667,21 @@ local function setupCosmetics()
 	-- the ViewModels folder or of a Folder inside it (never a part nested inside another model,
 	-- e.g. the many "Chamber" models inside guns). Ours must resolve the same way.
 	-- what a weapon's default viewmodel class waits for (ItemModel:WaitForChild(a):WaitForChild(b))
-	MD3.LYBuildVersion = 2 -- bump when the built models change, so older ones are rebuilt
-	MD3.LYClassNeeds = {
+	MD3.SHBuildVersion = 2 -- bump when the built models change, so older ones are rebuilt
+	MD3.SHClassNeeds = {
 		Bow = { { "Arrow", "Feather" }, { "Arrow", "Stick" }, { "Arrow", "Tip" } },
 		Daggers = { { "LeftBody", "MeshPart1" }, { "LeftBody", "MeshPart2" }, { "RightBody", "MeshPart1" }, { "RightBody", "MeshPart2" } },
 		RPG = { { "Rocket", "Head" }, { "Rocket", "Neck" } },
 		Satchel = { { "Body", "Beep" } },
 	}
 
-	MD3.LYLookThrough = function(parent, name)
+	MD3.SHLookThrough = function(parent, name)
 		for _, child in parent:GetChildren() do
 			if child:IsA("Model") and child.Name == name then
 				return child
 			end
 			if child:IsA("Folder") then
-				local found = MD3.LYLookThrough(child, name)
+				local found = MD3.SHLookThrough(child, name)
 				if found then
 					return found
 				end
@@ -5985,7 +5985,7 @@ local function setupCosmetics()
 			end
 
 			local function findModel(root, name)
-				return MD3.LYLookThrough(root, name)
+				return MD3.SHLookThrough(root, name)
 			end
 
 			-- Builds the skin's model from the stock one. Yields (mesh loading).
@@ -5997,7 +5997,7 @@ local function setupCosmetics()
 				prefetch(data)
 				local model = source:Clone()
 				model.Name = name
-				model:SetAttribute("__LYBuild", MD3.LYBuildVersion)
+				model:SetAttribute("__SHBuild", MD3.SHBuildVersion)
 				expected = {}
 				local byPath = mapTree(model)
 				for _, path in data.del do
@@ -6043,7 +6043,7 @@ local function setupCosmetics()
 				-- A skin the game has no class of its own for is run by the weapon's default class,
 				-- which waits for parts the stock skins it was written for have (and ours may lack).
 				-- Waiting for a missing part never ends, so add tiny hidden stand-ins.
-				local needs = MD3.LYClassNeeds[data.cos and data.cos.ItemName or ""]
+				local needs = MD3.SHClassNeeds[data.cos and data.cos.ItemName or ""]
 				if needs then
 					for _, need in needs do
 						local holder = model:FindFirstChild(need[1])
@@ -6083,7 +6083,7 @@ local function setupCosmetics()
 			Builder.MapTree = mapTree
 			Builder.PathOf = pathOf
 		end
-		MD3.LYSkinBuilder = Builder
+		MD3.SHSkinBuilder = Builder
 	end
 
 	-- Assault Rifle skins, built here on the stock AK-47 viewmodel so they work without
@@ -6106,7 +6106,7 @@ local function setupCosmetics()
 			["Prelude"] = { body = { 83623764990838, 140002013666794 }, mag = { 106237786919950, 109170034379159 }, scale = 4.02, A = { 0, -0.24, 0.01 }, B = { -0.135, -0.2, -0.03 }, C = { 0, 0, 0 } },
 			["Vandal"] = { body = { 138100951261312, 84167100219585 }, mag = { 92935167277909, 84167100219585 }, scale = 0.4, A = { 0.1, -0.25, 0.04 }, B = { -0.135, -0.2, -0.03 }, C = { 0, 0, 0 } },
 		}
-		MD3.LYSkinSpecs = specs
+		MD3.SHSkinSpecs = specs
 
 		local building = {}
 
@@ -6117,7 +6117,7 @@ local function setupCosmetics()
 		end
 
 		local function findModel(root, name)
-			return MD3.LYLookThrough(root, name)
+			return MD3.SHLookThrough(root, name)
 		end
 
 		local function hide(part)
@@ -6141,7 +6141,7 @@ local function setupCosmetics()
 			part.Color = Color3.new(1, 1, 1)
 			part:SetAttribute("IgnoreTransparency", true)
 			part:SetAttribute("WrapGroup", 2)
-			part:SetAttribute("__LYCustomMesh", true)
+			part:SetAttribute("__SHCustomMesh", true)
 			return part
 		end
 
@@ -6169,16 +6169,16 @@ local function setupCosmetics()
 			local A, C = spec.A, spec.C
 			local bodyCFrame = anchorCFrame * CFrame.new(Vector3.new(A[1], A[2], A[3]) + K)
 				* CFrame.Angles(math.rad(C[1]), math.rad(C[2]), math.rad(C[3]))
-			local bodyPart = customPart(spec.body, spec.scale, "__LYCustomAssaultRifleBody")
+			local bodyPart = customPart(spec.body, spec.scale, "__SHCustomAssaultRifleBody")
 			bodyPart.CFrame = bodyCFrame
 			bodyPart.Parent = body
 			if spec.mag then
 				local B = spec.B
-				local magazinePart = customPart(spec.mag, spec.scale, "__LYCustomAssaultRifleMagazine")
+				local magazinePart = customPart(spec.mag, spec.scale, "__SHCustomAssaultRifleMagazine")
 				magazinePart.CFrame = bodyCFrame * CFrame.new(B[1], B[2], B[3])
 				magazinePart.Parent = magazine
 				local reloadPart = magazinePart:Clone()
-				reloadPart.Name = "__LYCustomAssaultRifleReloadMagazine"
+				reloadPart.Name = "__SHCustomAssaultRifleReloadMagazine"
 				reloadPart.CFrame = CFrame.new(bodyCFrame.Position + anchorCFrame:VectorToWorldSpace(W))
 					* bodyCFrame.Rotation
 				reloadPart.Parent = reload
@@ -6193,7 +6193,7 @@ local function setupCosmetics()
 		-- Rifle skins: the game's rifle shot is played at volume 0.875; the loader multiplies it
 		-- (its ShootSoundVolumeMult; Blast X has none).
 		local RIFLE_VOLUME = 0.875
-		MD3.LYFireSounds = {
+		MD3.SHFireSounds = {
 			["Champions"] = { 87090279180730, RIFLE_VOLUME * 1.79 },
 			["Vandal"] = { 87090279180730, RIFLE_VOLUME * 1.8 },
 			["Prelude"] = { 108688689190270, RIFLE_VOLUME * 1.5 },
@@ -6247,7 +6247,7 @@ local function setupCosmetics()
 		end
 
 		local function applyFireSound(name, info)
-			local sound = MD3.LYFireSounds[name]
+			local sound = MD3.SHFireSounds[name]
 			local library = requireModule("AnimationLibrary")
 			local infos = index(library, "Info")
 			local animations = type(info) == "table" and info.Animations
@@ -6274,7 +6274,7 @@ local function setupCosmetics()
 		-- The game runs a viewmodel with a Lua class found by the skin's name (ViewModels/<weapon>/<skin>),
 		-- else the weapon's default class. Keyper, for one, has a class that turns its bullet trail on and
 		-- draws its orange tracers; a skin built on it ("Chamber") needs the same class under its own name.
-		MD3.LYCloneViewModelClass = function(name, sourceName)
+		MD3.SHCloneViewModelClass = function(name, sourceName)
 			local scripts = LocalPlayer:FindFirstChild("PlayerScripts")
 			local modules = scripts and scripts:FindFirstChild("Modules")
 			local classes = modules and modules:FindFirstChild("ViewModels")
@@ -6286,28 +6286,28 @@ local function setupCosmetics()
 			end
 		end
 
-		MD3.LYSkinReady = function(name)
+		MD3.SHSkinReady = function(name)
 			local viewModels = index(requireModule("ItemLibrary"), "ViewModels")
 			local root = assetsRoot()
 			return type(viewModels) == "table" and root ~= nil and viewModels[name] ~= nil
-				and MD3.LYLookThrough(root, name) ~= nil
+				and MD3.SHLookThrough(root, name) ~= nil
 		end
 
 		-- true when the game has the skin's data and model (built here if need be)
-		MD3.LYEnsureSkin = function(name)
+		MD3.SHEnsureSkin = function(name)
 			local viewModels = index(requireModule("ItemLibrary"), "ViewModels")
 			local root = assetsRoot()
 			if type(viewModels) ~= "table" or not root then
 				return false
 			end
-			local existing = MD3.LYLookThrough(root, name)
+			local existing = MD3.SHLookThrough(root, name)
 			if existing and MD3.samsamhubSkinData[name] then
-				local built = existing:GetAttribute("__LYBuild")
+				local built = existing:GetAttribute("__SHBuild")
 				if built == nil then
-					-- built by an older samsamhub (before the version tag): its parts carry "__LY…" attributes
+					-- built by an older samsamhub (before the version tag): its parts carry "__SH…" attributes
 					for _, descendant in existing:GetDescendants() do
 						for key in descendant:GetAttributes() do
-							if string.sub(key, 1, 4) == "__LY" then
+							if string.sub(key, 1, 4) == "__SH" then
 								built = 0
 								break
 							end
@@ -6317,7 +6317,7 @@ local function setupCosmetics()
 						end
 					end
 				end
-				if built ~= nil and built ~= MD3.LYBuildVersion then
+				if built ~= nil and built ~= MD3.SHBuildVersion then
 					existing:Destroy()
 					existing = nil
 				end
@@ -6326,7 +6326,7 @@ local function setupCosmetics()
 			-- (before the early return: a skin built by an earlier run still needs its class)
 			local sourceName = MD3.samsamhubSkinData[name] and string.match(MD3.samsamhubSkinData[name], "'src':'([^']+)'")
 			if sourceName then
-				pcall(MD3.LYCloneViewModelClass, name, sourceName)
+				pcall(MD3.SHCloneViewModelClass, name, sourceName)
 			end
 			if hasData and hasModel then
 				return true
@@ -6339,12 +6339,12 @@ local function setupCosmetics()
 			local ok, result = pcall(function()
 				local data = json and HttpService:JSONDecode((string.gsub(json, "'", '"')))
 				if data then
-					MD3.LYCloneViewModelClass(name, data.src)
+					MD3.SHCloneViewModelClass(name, data.src)
 				end
 				if not hasModel then
 					local model, reason
 					if data then
-						model, reason = MD3.LYSkinBuilder.Build(name, data, root)
+						model, reason = MD3.SHSkinBuilder.Build(name, data, root)
 					else
 						model = buildModel(name, spec, root)
 					end
@@ -6353,7 +6353,7 @@ local function setupCosmetics()
 					end
 					model.Parent = root
 				end
-				local entry = MD3.LYExtraSkins[name]
+				local entry = MD3.SHExtraSkins[name]
 				if not hasData then
 					local source = viewModels[data and data.src or "AK-47"]
 					local info = type(source) == "table" and table.clone(source) or {}
@@ -6401,7 +6401,7 @@ local function setupCosmetics()
 			end)
 			building[name] = nil
 			if not ok then
-				MD3.LYLastError = tostring(result)
+				MD3.SHLastError = tostring(result)
 				warn("samsamhub skin " .. name .. ": " .. tostring(result))
 			end
 			return ok
@@ -6442,7 +6442,7 @@ local function setupCosmetics()
 				built.Inventory[name] = true
 			end
 		end
-		for name, entry in MD3.LYExtraSkins do
+		for name, entry in MD3.SHExtraSkins do
 			if built.SkinWeapon[name] == nil then
 				local itemName = entry[1]
 				if not built.Skins[itemName] then
@@ -6598,7 +6598,7 @@ local function setupCosmetics()
 	end
 
 	-- Shared with the player spoofer further down (a different function scope).
-	MD3.LYData = {
+	MD3.SHData = {
 		Set = setSpoofed,
 		Real = function(field)
 			local real = dataHook.Real
@@ -6606,7 +6606,7 @@ local function setupCosmetics()
 		end,
 		Changed = fireDataChanged,
 	}
-	MD3.LYRequire = requireModule
+	MD3.SHRequire = requireModule
 
 	local function setUnlockAll(on)
 		if not on then
@@ -6706,7 +6706,7 @@ local function setupCosmetics()
 	-- Charm. The gun model is PlayerScripts.Assets.ViewModels[Name] (a skin is
 	-- simply its own Name, e.g. "AKEY-47"); wraps and charms are { Name = ... }
 	-- entries. Top-level keys are compressed through EnumLibrary._to_enum
-	-- (LY-broken's Codec); an entry's own fields stay plain.
+	-- (samsamhub's Codec); an entry's own fields stay plain.
 	local itemPatch = nil
 	local realLooks = {} -- weapon -> { Name, Wrap, Charm } as the server sent them
 
@@ -6794,13 +6794,13 @@ local function setupCosmetics()
 			local results = table.pack(pcall(original, ...))
 			if not results[1] then
 				itemPatch.Broken = true
-				MD3.LYLastError = tostring(results[2])
-				warn("samsamhub cosmetic (" .. tostring(real.Name) .. " -> " .. tostring(look.Name) .. "): " .. MD3.LYLastError)
+				MD3.SHLastError = tostring(results[2])
+				warn("samsamhub cosmetic (" .. tostring(real.Name) .. " -> " .. tostring(look.Name) .. "): " .. MD3.SHLastError)
 				-- notify from our own Heartbeat connection: this thread belongs to the game and can't create UI
 				local connection
 				connection = RunService.Heartbeat:Connect(function()
 					connection:Disconnect()
-					Window:Notify({ Title = "Cosmetics", Content = "The game rejected " .. tostring(look.Name) .. ": " .. MD3.LYLastError:sub(1, 140), Icon = "error", Duration = 12 })
+					Window:Notify({ Title = "Cosmetics", Content = "The game rejected " .. tostring(look.Name) .. ": " .. MD3.SHLastError:sub(1, 140), Icon = "error", Duration = 12 })
 				end)
 				error(results[2], 0)
 			end
@@ -6813,7 +6813,7 @@ local function setupCosmetics()
 		return true
 	end
 
-	-- Runs a game method the way LY-broken's ViewModelReloader does: on a fresh
+	-- Runs a game method the way samsamhub's ViewModelReloader does: on a fresh
 	-- thread at the game scripts' identity (2).
 	local function asGame(fn, ...)
 		local args = table.pack(...)
@@ -6847,7 +6847,7 @@ local function setupCosmetics()
 	end
 
 	-- Rebuilds your gun(s) for a weapon with the current picks, without
-	-- respawning (LY-broken's ViewModelReloader): destroy the viewmodel, create
+	-- respawning (samsamhub's ViewModelReloader): destroy the viewmodel, create
 	-- a new one from ClientItem:_CreateViewModel, and put it back in your hands.
 	local function reloadWeapon(weaponName)
 		local viewModelClass = requireModule("ClientViewModel")
@@ -6897,13 +6897,13 @@ local function setupCosmetics()
 				if not (created and type(newViewModel) == "table") then
 					-- the game refused to build the new viewmodel: say why, and put the real one back
 					-- so the weapon isn't left without any
-					MD3.LYLastError = tostring(newViewModel)
-					warn("samsamhub cosmetic (" .. tostring(look.Name) .. "): " .. MD3.LYLastError)
+					MD3.SHLastError = tostring(newViewModel)
+					warn("samsamhub cosmetic (" .. tostring(look.Name) .. "): " .. MD3.SHLastError)
 					encoded[encode("Name")] = real.Name
 					encoded[encode("Wrap")] = real.Wrap
 					encoded[encode("Charm")] = real.Charm
 					created, newViewModel = asGame(create, item, { [encode("Data")] = encoded })
-					local failedName, failedText = look.Name, MD3.LYLastError
+					local failedName, failedText = look.Name, MD3.SHLastError
 					local connection
 					connection = RunService.Heartbeat:Connect(function()
 						connection:Disconnect()
@@ -7002,8 +7002,8 @@ local function setupCosmetics()
 		-- makes the viewmodel; building yields, so it runs on its own thread.
 		for _, selection in selections do
 			local skin = type(selection) == "table" and selection.Skin
-			if type(skin) == "string" and (MD3.LYSkinSpecs[skin] or MD3.samsamhubSkinData[skin]) then
-				task.spawn(MD3.LYEnsureSkin, skin)
+			if type(skin) == "string" and (MD3.SHSkinSpecs[skin] or MD3.samsamhubSkinData[skin]) then
+				task.spawn(MD3.SHEnsureSkin, skin)
 			end
 		end
 		local lobby = hookWeaponData()
@@ -7108,7 +7108,7 @@ local function setupCosmetics()
 	-- A slot value is a cosmetic name, `false` ("None": force it empty) or nil
 	-- ("Unselected": leave the game's own value).
 	local CosmeticsTab = Window:AddTab({ Title = "Cosmetics", Icon = "checkroom" })
-	MD3.LYCosmeticsTab = CosmeticsTab -- the Rank Charm override adds its own sub-tab here
+	MD3.SHCosmeticsTab = CosmeticsTab -- the Rank Charm override adds its own sub-tab here
 	local PAGE_SIZE = 48
 	local PRESETS_FILE = COSMETICS_FOLDER .. "/cosmetic_presets.json"
 	local WARN_COLOR = Color3.fromRGB(255, 196, 92)
@@ -7148,9 +7148,9 @@ local function setupCosmetics()
 	local function cosmeticInfo(name)
 		local cosmetics = index(requireModule("CosmeticLibrary"), "Cosmetics")
 		local info = type(cosmetics) == "table" and index(cosmetics, name) or nil
-		if info == nil and MD3.LYExtraSkins[name] then
+		if info == nil and MD3.SHExtraSkins[name] then
 			-- Not registered by the loader yet: same shape as the game's entry.
-			local entry = MD3.LYExtraSkins[name]
+			local entry = MD3.SHExtraSkins[name]
 			return {
 				Type = "Skin",
 				ItemName = entry[1],
@@ -7163,21 +7163,21 @@ local function setupCosmetics()
 	end
 
 	-- The skins above need a viewmodel in the game: samsamhub builds it from the stock one
-	-- (MD3.LYEnsureSkin, takes a few seconds the first time). Picking one the game has
+	-- (MD3.SHEnsureSkin, takes a few seconds the first time). Picking one the game has
 	-- no model for would leave the weapon without a model.
 	local function skinAvailable(name)
-		if not MD3.LYExtraSkins[name] then
+		if not MD3.SHExtraSkins[name] then
 			return true
 		end
-		return MD3.LYEnsureSkin(name)
+		return MD3.SHEnsureSkin(name)
 	end
 
 	-- Cheap check for the random pick: the skin works, or samsamhub can build it.
 	local function skinProvidable(name)
-		if not MD3.LYExtraSkins[name] then
+		if not MD3.SHExtraSkins[name] then
 			return true
 		end
-		if MD3.LYSkinSpecs[name] or MD3.samsamhubSkinData[name] then
+		if MD3.SHSkinSpecs[name] or MD3.samsamhubSkinData[name] then
 			return true
 		end
 		local viewModels = index(requireModule("ItemLibrary"), "ViewModels")
@@ -7457,11 +7457,11 @@ local function setupCosmetics()
 				end
 				value = list[math.random(#list)]
 			end
-			if slot == "Skin" and type(value) == "string" and MD3.LYExtraSkins[value] and not MD3.LYSkinReady(value) then
+			if slot == "Skin" and type(value) == "string" and MD3.SHExtraSkins[value] and not MD3.SHSkinReady(value) then
 				Window:Notify({ Title = "Cosmetics", Content = "Preparing " .. value .. " (a few seconds the first time)", Icon = "refresh" })
 			end
 			if slot == "Skin" and type(value) == "string" and not skinAvailable(value) then
-				Window:Notify({ Title = "Cosmetics", Content = "Couldn't build " .. value .. ": " .. tostring(MD3.LYLastError or "unknown"):sub(1, 140), Icon = "error" })
+				Window:Notify({ Title = "Cosmetics", Content = "Couldn't build " .. value .. ": " .. tostring(MD3.SHLastError or "unknown"):sub(1, 140), Icon = "error" })
 				return
 			end
 			if not setSlot(ui.Weapon, slot, value) then
@@ -7802,8 +7802,8 @@ local function setupCosmetics()
 			local root = assets and assets:FindFirstChild("ViewModels")
 			for weaponName, selection in selections do
 				local skin = type(selection) == "table" and selection.Skin
-				if type(skin) == "string" and (MD3.LYSkinSpecs[skin] or MD3.samsamhubSkinData[skin]) then
-					local model = root and MD3.LYLookThrough(root, skin)
+				if type(skin) == "string" and (MD3.SHSkinSpecs[skin] or MD3.samsamhubSkinData[skin]) then
+					local model = root and MD3.SHLookThrough(root, skin)
 					local meshes, empty = 0, 0
 					if model then
 						for _, d in model:GetDescendants() do
@@ -7815,7 +7815,7 @@ local function setupCosmetics()
 					table.insert(lines, string.format("%s/%s: model=%s (meshes %d, hidden %d) vm=%s cos=%s", weaponName, skin, tostring(model ~= nil), meshes, empty, tostring(type(viewModels) == "table" and viewModels[skin] ~= nil), tostring(type(cosmetics) == "table" and cosmetics[skin] ~= nil)))
 				end
 			end
-			table.insert(lines, "itemPatch=" .. (itemPatch and (itemPatch.Broken and "BROKEN" or "ok") or "off") .. " last=" .. tostring(MD3.LYLastError or "-"):sub(1, 330))
+			table.insert(lines, "itemPatch=" .. (itemPatch and (itemPatch.Broken and "BROKEN" or "ok") or "off") .. " last=" .. tostring(MD3.SHLastError or "-"):sub(1, 330))
 			local text = table.concat(lines, "\n")
 			warn("samsamhub skin report\n" .. text)
 			Window:Notify({ Title = "Skin report", Content = text, Icon = "info", Duration = 20 })
@@ -7970,8 +7970,8 @@ local function setupCosmetics()
 	-- instant and its model, viewmodel class and sounds are all in place before you equip it.
 	task.spawn(function()
 		local names = {}
-		for name in MD3.LYExtraSkins do
-			if MD3.LYSkinSpecs[name] or MD3.samsamhubSkinData[name] then
+		for name in MD3.SHExtraSkins do
+			if MD3.SHSkinSpecs[name] or MD3.samsamhubSkinData[name] then
 				table.insert(names, name)
 			end
 		end
@@ -7987,10 +7987,10 @@ local function setupCosmetics()
 		end
 		local built, failed = 0, 0
 		for _, name in names do
-			if MD3.LYSkinReady(name) then
-				pcall(MD3.LYEnsureSkin, name) -- also makes sure its viewmodel class is there
+			if MD3.SHSkinReady(name) then
+				pcall(MD3.SHEnsureSkin, name) -- also makes sure its viewmodel class is there
 				built += 1
-			elseif pcall(MD3.LYEnsureSkin, name) and MD3.LYSkinReady(name) then
+			elseif pcall(MD3.SHEnsureSkin, name) and MD3.SHSkinReady(name) then
 				built += 1
 			else
 				failed += 1
@@ -8024,7 +8024,7 @@ setupCosmetics()
 -- A tab button decides at creation whether it has room for an icon. Icons that live on a later
 -- sprite-sheet page appear after the button was built without that room, and then sat on top of
 -- the title (Combat). Once such an icon shows up, move the title over and widen the button.
-MD3.LYFixTabIcons = function(window)
+MD3.SHFixTabIcons = function(window)
 	for _, tab in window.Tabs do
 		local icon, label, button = tab._icon, tab._label, tab._button
 		if icon and label and button then
@@ -8043,7 +8043,7 @@ MD3.LYFixTabIcons = function(window)
 		end
 	end
 end
-pcall(MD3.LYFixTabIcons, Window)
+pcall(MD3.SHFixTabIcons, Window)
 
 -- Movement recorder, the other hub's way: it records what you DO (move direction, look
 -- direction, jumps, crouch / slide, equipping, shooting) relative to the map, not where you
@@ -8191,7 +8191,7 @@ do
 	local function useItemHook(onInput)
 		local restore
 		pcall(function()
-			local class = MD3.LYRequire and MD3.LYRequire("ClientItem")
+			local class = MD3.SHRequire and MD3.SHRequire("ClientItem")
 			local input = class and (rawget(class, "Input") or class.Input)
 			if type(input) ~= "function" then return end
 			local remote = ReplicatedStorage.Remotes.Replication.Fighter.UseItem
@@ -10751,7 +10751,7 @@ local function loadPortedFeatures()
 			end
 			return nil, false
 		end
-		getgenv().LYSilentShotStruct = shotStruct
+		getgenv().SHSilentShotStruct = shotStruct
 
 		local function firesilent()
 			if not silentAim.enabled then return end
@@ -10984,17 +10984,17 @@ local function loadPortedFeatures()
 			struct[utf8.char(2)] = part
 			struct[utf8.char(3)] = Utility:EncodeCFrame(CFrame.new(offset))
 		end
-		getgenv().LYSilentAimRewrite = rewriteSilentShot
+		getgenv().SHSilentAimRewrite = rewriteSilentShot
 		Port.OnUnload(function()
-			getgenv().LYSilentAimRewrite = nil
-			getgenv().LYSilentShotStruct = nil
-			getgenv().LYSilentHooked = false
+			getgenv().SHSilentAimRewrite = nil
+			getgenv().SHSilentShotStruct = nil
+			getgenv().SHSilentHooked = false
 		end)
 
 		Port.Track(RunService.Heartbeat:Connect(function()
 			-- Fallback only: when the game's shot is not being edited in flight (the Gun
 			-- hook did not install), fire a shot of our own as before.
-			if silentAim.enabled and (not getgenv().LYSilentHooked or getgenv().LYSilentShapeBad) then
+			if silentAim.enabled and (not getgenv().SHSilentHooked or getgenv().SHSilentShapeBad) then
 				if UserInputService:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) then
 					firesilent()
 				end
@@ -11841,7 +11841,7 @@ local function loadPortedFeatures()
 				if GunModule.StartShooting then
 					getgenv().CombatMods.OriginalGunStartShooting = GunModule.StartShooting
 
-					getgenv().LYSilentHooked = true
+					getgenv().SHSilentHooked = true
 					GunModule.StartShooting = function(self, p26, p27)
 						local oldShootCooldown
 						if getgenv().CombatMods.RapidFire then
@@ -11867,16 +11867,16 @@ local function loadPortedFeatures()
 						end
 
 						-- Silent aim: edit the shot's struct in place (see rewriteSilentShot).
-						local rewrite = getgenv().LYSilentAimRewrite
+						local rewrite = getgenv().SHSilentAimRewrite
 						if rewrite and result[1] == true and result[2] == "StartShooting" and type(result[3]) == "table" then
-							local shape = getgenv().LYSilentShotStruct
+							local shape = getgenv().SHSilentShotStruct
 							local struct = shape and shape(result[3])
 							if type(struct) == "table" then
 								pcall(rewrite, struct)
 							else
 								-- The shot packet looks different from what we expect: let the
 								-- old own-shot fallback take over instead of doing nothing.
-								getgenv().LYSilentShapeBad = true
+								getgenv().SHSilentShapeBad = true
 							end
 						end
 
@@ -14541,7 +14541,7 @@ local function loadPortedFeatures()
 		-- accessories (the originals are stashed and put back), the game's own avatar loader
 		-- is pointed at the spoofed user, and avatar thumbnails in the UI are swapped.
 		-- Only you see any of it; everything is undone when a spoof is turned off.
-		MD3.LYIdentitySpoof = function(frame)
+		MD3.SHIdentitySpoof = function(frame)
 			local Players = game:GetService("Players")
 			local me = Players.LocalPlayer
 			local cfg = {}
@@ -14573,7 +14573,7 @@ local function loadPortedFeatures()
 				end
 				return name, display
 			end
-			MD3.LYPresentedName = function()
+			MD3.SHPresentedName = function()
 				local _, display = presented(me)
 				return display
 			end
@@ -14951,7 +14951,7 @@ local function loadPortedFeatures()
 			local loaderRestore
 			local function installLoader()
 				if loaderRestore or not (debug and debug.getupvalues and debug.setupvalue) then return end
-				local dueler = MD3.LYRequire and MD3.LYRequire("ClientDueler")
+				local dueler = MD3.SHRequire and MD3.SHRequire("ClientDueler")
 				local method = type(dueler) == "table" and rawget(dueler, "_PreloadCharacterModel")
 				if type(method) ~= "function" then return end
 				local index, original
@@ -15098,7 +15098,7 @@ local function loadPortedFeatures()
 		--  * ping: the upvalue `Players` of Utility.GetLocalConnectionPing is swapped.
 		-- Every hook is optional: if a game function / upvalue is not found, that spoof
 		-- just does nothing. They are all undone when the hub is unloaded.
-		MD3.LYSpoofExtras = function(frame, spoofs)
+		MD3.SHSpoofExtras = function(frame, spoofs)
 			local Players = game:GetService("Players")
 			local ReplicatedStorage = game:GetService("ReplicatedStorage")
 			local me = Players.LocalPlayer
@@ -15139,7 +15139,7 @@ local function loadPortedFeatures()
 			end
 			local function installProfileHook()
 				if profile.installed or not (debug and debug.getupvalues and debug.setupvalue) then return end
-				local viewProfile = MD3.LYRequire and MD3.LYRequire("ViewProfile")
+				local viewProfile = MD3.SHRequire and MD3.SHRequire("ViewProfile")
 				local meta = viewProfile and getmetatable(viewProfile)
 				local methods = type(meta) == "table" and rawget(meta, "__index")
 				local fetch = type(methods) == "table" and rawget(methods, "Fetch")
@@ -15169,11 +15169,11 @@ local function loadPortedFeatures()
 
 			-- Player-data fields: keys, event currency, season elo --------------------
 			local function dataSet(field, getter)
-				if MD3.LYData then pcall(MD3.LYData.Set, field, getter) end
+				if MD3.SHData then pcall(MD3.SHData.Set, field, getter) end
 			end
 			local function seasonsWithElo()
-				local original = MD3.LYData and MD3.LYData.Real("Seasons")
-				local library = MD3.LYRequire and MD3.LYRequire("SeasonLibrary")
+				local original = MD3.SHData and MD3.SHData.Real("Seasons")
+				local library = MD3.SHRequire and MD3.SHRequire("SeasonLibrary")
 				local current = type(library) == "table" and library.CurrentSeason
 				if type(original) ~= "table" or type(current) ~= "table" or not spoofs["local"].elo.enabled then
 					return original
@@ -15200,8 +15200,8 @@ local function loadPortedFeatures()
 			local boardHook = { restore = nil }
 			local function installBoard()
 				if boardHook.restore or not (debug and debug.getconstants and debug.setconstant) then return end
-				local controller = MD3.LYRequire and MD3.LYRequire("LeaderboardController")
-				local library = MD3.LYRequire and MD3.LYRequire("SeasonLibrary")
+				local controller = MD3.SHRequire and MD3.SHRequire("LeaderboardController")
+				local library = MD3.SHRequire and MD3.SHRequire("SeasonLibrary")
 				if type(controller) ~= "table" or type(library) ~= "table" then return end
 				local meta = getmetatable(controller)
 				local methods = type(meta) == "table" and rawget(meta, "__index")
@@ -15259,10 +15259,10 @@ local function loadPortedFeatures()
 				if boardHook.restore then boardHook.restore() end
 				if pingHook.restore then pingHook.restore() end
 				pcall(function()
-					if MD3.LYData then
-						MD3.LYData.Set("WeaponKeys", nil)
-						MD3.LYData.Set("EventCurrency", nil)
-						MD3.LYData.Set("Seasons", nil)
+					if MD3.SHData then
+						MD3.SHData.Set("WeaponKeys", nil)
+						MD3.SHData.Set("EventCurrency", nil)
+						MD3.SHData.Set("Seasons", nil)
 					end
 				end)
 			end)
@@ -15332,9 +15332,9 @@ local function loadPortedFeatures()
 			end)
 		end
 
-		MD3.LYSpoofExtras(frame, spoofs)
+		MD3.SHSpoofExtras(frame, spoofs)
 
-		MD3.LYIdentitySpoof(frame)
+		MD3.SHIdentitySpoof(frame)
 
 		local fpsTab = Port.Section(CharacterTab, "FPS Spoof")
 		local msTab = Port.Section(CharacterTab, "Ping Spoof")
@@ -15349,7 +15349,7 @@ local function loadPortedFeatures()
 		end
 
 		if not config.profile.regionspoof then
-			config.profile.regionspoof = { enabled = false, value = "dc.lystore.lol" }
+			config.profile.regionspoof = { enabled = false, value = "dc.samsamhub.lol" }
 		end
 
 		_G.FPSSpoofConnections = _G.FPSSpoofConnections or {}
@@ -15670,12 +15670,12 @@ local function loadPortedFeatures()
 
 		regionTab:AddInput("RegionSpoofValue", {
 			Text = "region value",
-			Default = "dc.lystore.lol",
+			Default = "dc.samsamhub.lol",
 			Numeric = false,
 			Finished = false,
 			Placeholder = "type region...",
 			Callback = function(val)
-				config.profile.regionspoof.value = val or "dc.lystore.lol"
+				config.profile.regionspoof.value = val or "dc.samsamhub.lol"
 				if config.profile.regionspoof.enabled then
 					applyRegionSpoof()
 				end
@@ -15865,7 +15865,7 @@ local function loadPortedFeatures()
 			linear.Parent = hrp
 			flyMover = { Attachment = attachment, Velocity = linear }
 		end))
-		local FLY_BLANK = "LYFlyBlank"
+		local FLY_BLANK = "SHFlyBlank"
 		pcall(function()
 			RS:BindToRenderStep(FLY_BLANK, Enum.RenderPriority.Camera.Value - 1, function()
 				if flyMover then
@@ -24111,7 +24111,7 @@ local extrasOk, extrasError = pcall(function()
 	do
 		-- Lives in the Cosmetics tab (own "Rank Charm" sub-tab); falls back to Misc when the
 		-- Cosmetics tab could not be built.
-		local rankSub = MD3.LYCosmeticsTab and MD3.LYCosmeticsTab:AddSubTab("Rank Charm", { Columns = 1 })
+		local rankSub = MD3.SHCosmeticsTab and MD3.SHCosmeticsTab:AddSubTab("Rank Charm", { Columns = 1 })
 		local RankCharmSection = (rankSub or MiscTab):AddSection("Rank Charm Override")
 		local rankCharm = { Enabled = false, ELO = 3000, LeaderboardRank = 1 }
 
@@ -24193,7 +24193,7 @@ local extrasOk, extrasError = pcall(function()
 	-- Auras ---------------------------------------------------------------------------------
 	-- 46 particle auras on your own character (only you see them). The data (emitter pool +
 	-- per-aura part layout, read from the external loader's config tables) is embedded below as
-	-- MD3.LYAuraSource (same text as saved/solix_auras.lua) and only parsed the first time an aura
+	-- MD3.SHAuraSource (same text as saved/solix_auras.lua) and only parsed the first time an aura
 	-- is switched on.
 
 	do
@@ -24446,7 +24446,7 @@ local extrasOk, extrasError = pcall(function()
 			if aura.Data then
 				return true
 			end
-			local chunk = type(MD3.LYAuraSource) == "string" and loadstring(MD3.LYAuraSource)
+			local chunk = type(MD3.SHAuraSource) == "string" and loadstring(MD3.SHAuraSource)
 			local ok, result = pcall(chunk or error, "aura data missing")
 			if ok and type(result) == "table" and type(result.pool) == "table" and type(result.auras) == "table" then
 				aura.Data = result
@@ -24645,7 +24645,7 @@ local extrasOk, extrasError = pcall(function()
 	end
 
 	-- Aura data: same text as saved/solix_auras.lua (keep the two in sync).
-	MD3.LYAuraSource = [===[
+	MD3.SHAuraSource = [===[
 --[[
   solix aura dump  (46 auras, 594 deduped emitter/beam property tables)
   Source: the external "solix" loader's runtime config tables (auras_catalog /
@@ -25522,7 +25522,7 @@ end
 local Watermark = Window:AddWatermark({ Title = "samsamhub", FPS = true, Ping = true, Clock = "%H:%M" })
 local nameBlock = Watermark:AddBlock({ Icon = "person", Text = LocalPlayer.DisplayName })
 local function updateNameBlock()
-	nameBlock:SetText(MD3.LYPresentedName and MD3.LYPresentedName() or LocalPlayer.DisplayName)
+	nameBlock:SetText(MD3.SHPresentedName and MD3.SHPresentedName() or LocalPlayer.DisplayName)
 end
 -- Deferred: OnChanged can run before the element's own Callback updates the spoof.
 for _, flag in { "MyDisplaySpoof", "MyDisplayValue", "MyVerifiedSpoof", "MyPremiumSpoof" } do
@@ -25556,7 +25556,7 @@ end
 
 -- Share a whole config as one JSON text: copied to the clipboard on export, pasted or
 -- read from the clipboard on import. Same value encoding as the saved config files.
-MD3.LYConfigShare = function()
+MD3.SHConfigShare = function()
 	local ConfigShare = SettingsTab:AddSection("Config Share")
 	local clipboardSet = setclipboard or toclipboard or set_clipboard or (Clipboard and Clipboard.set)
 	local clipboardGet = getclipboard or get_clipboard
@@ -25684,7 +25684,7 @@ MD3.LYConfigShare = function()
 		end,
 	})
 end
-MD3.LYConfigShare()
+MD3.SHConfigShare()
 
 -- Language ----------------------------------------------------------------------------
 
@@ -25692,7 +25692,7 @@ MD3.LYConfigShare()
 -- on every label / button / placeholder inside the window; anything without an entry
 -- stays English. The original text of each object is remembered, so switching back to
 -- English restores it exactly and text that the script changes later is translated too.
-MD3.LYLanguage = function()
+MD3.SHLanguage = function()
 	local ZH = {
 		["ly hub"] = "samsamhub",
 		["combat"] = "戰鬥",
@@ -26418,7 +26418,7 @@ MD3.LYLanguage = function()
 		end,
 	})
 end
-MD3.LYLanguage()
+MD3.SHLanguage()
 
 Window.OnUnload:Connect(function()
 	for index = #cleanup, 1, -1 do
