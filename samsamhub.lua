@@ -5174,7 +5174,7 @@ local ok, url = pcall(readfile, %q)
 url = ok and type(url) == "string" and url:match("^%%s*(.-)%%s*$") or ""
 if url ~= "" then loadstring(game:HttpGet(url))() end
 ]]
-local AUTOEXEC_URL = "https://raw.githubusercontent.com/www067/lin67/main/LIN6767V7.lua"
+local AUTOEXEC_URL = "https://raw.githubusercontent.com/sammmmmm6767/samsamhub/main/samsamhub.lua"
 local AUTOEXEC_LEGACY = "https://lua.lystore.lol/O5BmHqMr1QPdpZXWf2vLEDKSdrclP6f7/loader.luau"
 -- The toggle's real state is the file it feeds (the queued loader reads it after the teleport,
 -- so the switch and the file can't drift). Read that file back on boot: an old LY URL parked
